@@ -1,0 +1,28 @@
+{
+  "id": "jung-min-lee",
+  "name": "Jung Min Lee",
+  "name_ko": "이정민",
+  "group": "Graduate Students",
+  "program": "Integrated PhD program (8)",
+  "order": 3,
+  "image": "assets/images/53d188af3341e5ac.jpg",
+  "roles": [],
+  "source": "https://sites.google.com/view/jeonggyuhuh/people",
+  "sections": [
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Papers in Progress",
+        "html": "Papers in Progress"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Utility Maximization under Shortfall Tail Risk: A CRRA–CVaR Formulation"
+        ]
+      }
+    ]
+  ]
+}

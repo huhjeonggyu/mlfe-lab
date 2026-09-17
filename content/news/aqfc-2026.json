@@ -1,0 +1,52 @@
+{
+  "id": "aqfc-2026",
+  "date": "2026-07-16",
+  "title": "AQFC 2026",
+  "title_ko": "포항에서 만난 금융수학 연구",
+  "category": "Conference",
+  "members": [
+    "jeonggyu-huh",
+    "dongwan-shin"
+  ],
+  "source": "https://sites.google.com/view/jeonggyuhuh/home",
+  "sections": [
+    [
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Our lab attended AQFC 2026, held in Pohang. Jeonggyu Huh and Dongwan Shin gave presentations titled “Recovering No-Trade Regions: Pontryagin-Guided Policy Projection for Transaction-Cost Control” and “Decision Focused Learning of Asset Betas for Sharpe-Optimal Portfolios,” respectively. 🤓",
+        "html": "Our lab attended AQFC 2026, held in Pohang. Jeonggyu Huh and Dongwan Shin gave presentations titled “Recovering No-Trade Regions: Pontryagin-Guided Policy Projection for Transaction-Cost Control” and “Decision Focused Learning of Asset Betas for Sharpe-Optimal Portfolios,” respectively. 🤓"
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/aqfc-2026-group.png",
+        "alt": "MLFE Lab group photo at AQFC 2026"
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/aqfc-2026-presentation-1.png",
+        "alt": "AQFC 2026 presentation — Recovering No-Trade Regions"
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/aqfc-2026-presentation-2.png",
+        "alt": "AQFC 2026 presentation — Decision-Focused Learning"
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/aqfc-2026-mlfe-sand.png",
+        "alt": "MLFE written in the sand"
+      }
+    ]
+  ],
+  "end_date": "2026-07-18",
+  "subtitle": "Presentations on transaction-cost control and portfolio learning."
+}

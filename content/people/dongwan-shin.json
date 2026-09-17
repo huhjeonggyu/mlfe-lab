@@ -1,0 +1,63 @@
+{
+  "id": "dongwan-shin",
+  "name": "Dongwan Shin",
+  "name_ko": "신동완",
+  "group": "Graduate Students",
+  "program": "Integrated PhD program (3)",
+  "order": 2,
+  "image": "assets/images/ec3143ea1dd52e8a.jpg",
+  "roles": [
+    "Lab Manager",
+    "Server Administrator"
+  ],
+  "source": "https://sites.google.com/view/jeonggyuhuh/people",
+  "sections": [
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Papers in Progress",
+        "html": "Papers in Progress"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "A Computational Framework for Decision-Aligned Conditional Betas in Cost-Aware Portfolio Optimization",
+          "Discounted Alpha: A Machine Learning Framework for Equity Valuation"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Project in Progress",
+        "html": "Project in Progress"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "ELS Hedging Decision-Making System Using Neural Optimal Control, Jul. 2026–Jun. 2027, RiskX-led project, 2026 Seoul FinTech Technology Commercialization Support Program"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Talks",
+        "html": "Talks"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Decision Focused Learning of Asset Betas for Sharpe-Optimal Portfolios, The Korean Operations Research and Management Science Society (KORMS), Poster Presentation, Spring 2026",
+          "Decision Focused Learning of Asset Betas for Sharpe-Optimal Portfolios, Asian Quantitative Finance Conference (AQFC), 2026"
+        ]
+      }
+    ]
+  ]
+}

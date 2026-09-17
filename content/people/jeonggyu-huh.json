@@ -1,0 +1,29 @@
+{
+  "id": "jeonggyu-huh",
+  "name": "Jeonggyu Huh",
+  "name_ko": "허정규",
+  "group": "Principal Investigator",
+  "program": "Associate Professor",
+  "order": 0,
+  "image": "assets/images/9b4c7393f0698715.png",
+  "roles": [],
+  "source": "https://sites.google.com/view/jeonggyuhuh/people",
+  "sections": [
+    [
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Associate Professor, Department of Mathematics, Sung-Kyun-Kwan University ( SKKU ), South Korea jghuh@skku.edu",
+        "html": "Associate Professor, Department of Mathematics, Sung-Kyun-Kwan University (<a href=\"https://www.skku.edu/eng/index.do\">SKKU</a>), South Korea<br>jghuh@skku.edu"
+      }
+    ],
+    [
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Office: #31313, Natural Science Building 1 More",
+        "html": "Office: #31313, Natural Science Building 1<br><a href=\"jeonggyu-huh.html\">More</a>"
+      }
+    ]
+  ]
+}

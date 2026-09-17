@@ -1,0 +1,5 @@
+{
+  "name": "SKKU MLFE Lab",
+  "introduction_en": "Welcome! Our lab is interested in making financial mathematics work in high-dimensional, constrained, and uncertain settings. We bridge elegant mathematical theory and real-world financial decision problems. We develop structure-preserving methods for learning, control, and asset pricing that remain tractable and useful in practice.",
+  "introduction_ko": "환영합니다. 저희 랩은 고차원·제약·불확실성이 존재하는 환경에서도 금융수학이 실제로 작동하게 만드는 것을 연구합니다. 정교한 수학적 이론과 현실의 금융 의사결정 문제 사이의 간극을 좁히고자 합니다. 이를 위해 학습·제어·자산가격의 수학적 구조를 보존하면서도 실제 문제에 활용할 수 있는 방법론을 개발하고 있습니다."
+}

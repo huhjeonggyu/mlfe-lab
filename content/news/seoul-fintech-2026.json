@@ -1,0 +1,25 @@
+{
+  "id": "seoul-fintech-2026",
+  "date": "2026-06-11",
+  "title": "Seoul Fintech Support Program",
+  "title_ko": "서울시 핀테크 산학협력 과제 선정",
+  "category": "Research",
+  "members": [],
+  "source": "https://sites.google.com/view/jeonggyuhuh/home",
+  "sections": [
+    [
+      {
+        "type": "image",
+        "src": "assets/images/8a9729b188bfe2bc.png",
+        "alt": ""
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "We have been selected as a partner institution for a Seoul Fintech Support Program project. This industry-academia collaboration project is led by RiskX, with Hanyang University and Sungkyunkwan University participating as partner institutions. The project is titled \"Development of an ELS Hedging Decision-Making System Using Neural Network-Based Optimal Control\".",
+        "html": "We have been selected as a partner institution for a Seoul Fintech Support Program project. This industry-academia collaboration project is led by RiskX, with Hanyang University and Sungkyunkwan University participating as partner institutions. The project is titled \"Development of an ELS Hedging Decision-Making System Using Neural Network-Based Optimal Control\"."
+      }
+    ]
+  ],
+  "subtitle": "Selected for an industry–academia research collaboration."
+}

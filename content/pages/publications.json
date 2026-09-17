@@ -1,0 +1,259 @@
+{
+  "title": "Publications",
+  "source": "https://sites.google.com/view/jeonggyuhuh/papers",
+  "sections": [
+    [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Papers",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.m86azpc85q2i\"></a>Papers"
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Papers in Progress",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.ox1fyln41vqu\"></a>Papers in Progress"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<a href=\"work-in-progress.html\">Link</a>"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Submitted",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.ckujad1tdnan\"></a>Submitted"
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": ">> Structured Stochastic Control",
+        "html": ">> Structured Stochastic Control"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Scalable Pontryagin-Guided Adjoint-to-Control Recovery for Constrained Dynamic Portfolio Choice, Jeonggyu Huh*, Jaegi Jeon*, Hyeng-Keun Koo, Byung-Hwa Lim, under revision in Mathematical Finance  [<a href=\"https://arxiv.org/abs/2608.15667\">Paper</a>] [<a href=\"https://drive.google.com/file/d/1k5YcMDwhNu8MjhH78zEz7PbWYvdqzDng/view?usp=drive_link\">Slides</a>]",
+          "Self-Consistent Adjoint Policy Iteration for Constrained Dynamic Portfolio Choice, Jeonggyu Huh*, Yeoneung Kim, Seungwon Jeong [<a href=\"https://arxiv.org/abs/2608.17808\">Link</a>]",
+          "Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control, Hojin Ko*, Jeonggyu Huh* [<a href=\"https://drive.google.com/file/d/1JxF_NBrw404u5XNbV15P6GC9GCauPJny/view?usp=sharing\">Slide</a>]",
+          "Differentiating Through Delay: Stochastic Control Without Full History Hessians, Seungwon Jeong*, Jihun Kim*, Jeonggyu Huh*",
+          "Neural Policy Iteration for Dynamic Portfolio Choice with Control-Dependent Diffusion, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*",
+          "Computable Welfare Bounds for Constrained Dynamic Portfolio Choice, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": ">> Market Prediction & Asset Pricing",
+        "html": "<br>>> Market Prediction & Asset Pricing"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "MarketGANs: Multivariate Financial Time-Series Data Augmentation Using Generative Adversarial Networks, Jeonggyu Huh*, Seungwon Jeong, Hyeng-Keun Koo, Byung-Hwa Lim, Hyun-Gyoon Kim*, under revision in Financial Innovation [<a href=\"https://arxiv.org/abs/2601.17773\">Link</a>]",
+          "Reinforcement Learning and Heterogeneity in Nonlinear Financial Markets, Hyun Soo Doh*, Yunzhi Hu, Jeonggyu Huh, Byung-Hwa Lim, Reject & Resubmit, Management Science [<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7313799\">Link</a>]",
+          "Sobolev-Stable Regime-Conditioned DeepONet for Monthly Implied-Volatility Surface Forecasting,  Hojin Ko*, Jeonggyu Huh*, Ho-Jun Lee, Wonwoo Choi",
+          "Forecast Origins and Information Value in Cross-Market Volatility Forecasting, Jaegi Jeon*, Jeonggyu Huh, Seungwon Jeong*<br><br>"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": ">> Derivative Pricing",
+        "html": ">> Derivative Pricing"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Barrier killing and wrong-way CVA under fast mean-reverting volatility, Jaegi Jeon*, Jeonggyu Huh* [<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7403691\">Link</a>]"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2026",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.pw1tnnjd9x2s\"></a>2026"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Beyond the Bellman Recursion: A Pontryagin-Guided Framework for Non-Exponential Discounting, Hojin Ko*, Jeonggyu Huh*, International Conference on Machine Learning (ICML), 2026 [<a href=\"https://arxiv.org/abs/2605.20996\">Link</a>]",
+          "Learning Distributions for Continuous-Time Financial Models, Jeonggyu Huh*, Seung-Won Jeong*,  Computational Economics, 2026 [<a href=\"https://link.springer.com/article/10.1007/s10614-025-11044-6?utm_source=rct_congratemailt&amp;utm_medium=email&amp;utm_campaign=nonoa_20250705&amp;utm_content=10.1007%2Fs10614-025-11044-6\">Link</a>]",
+          "Equity Premium Forecasting with Reliability-Screened Forward-Looking Signals, Jeonggyu Huh*,  Jaegi Jeon, Seung-Won Jeong*, PloS one, 2026 [<a href=\"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341578\">Link</a>]",
+          "DeepONet-Based Surrogate Modeling for Bond Option Pricing, Sang-Hyun Lee*, Jeonggyu Huh, Seungwon Jeong*, AIMS Mathematics, 2026 [<a href=\"https://www.aimspress.com/article/doi/10.3934/math.2026242\">Link</a>]"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2025",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.imy8nervo5zi\"></a>2025"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "LSTM-based Dynamic Correlation Forecasting with Economic Conditions, Jeonggyu Huh*, Seungwoo Ha, Seung-Won Jeong*, Finance Research Letters, 2025 [<a href=\"https://www.sciencedirect.com/science/article/pii/S1544612325016794\">Link</a>]",
+          "Improved Accuracy of an Analytical Approximation for Option Pricing under Stochastic Volatility Models using Deep Learning Techniques, Donghyun Kim*, Jeonggyu Huh*, Ji-Hun Yoon, Computers and Mathematics with Applications, 2025 [<a href=\"https://www.sciencedirect.com/science/article/pii/S0898122125001245\">Link</a>]",
+          "Considering Appropriate Input Features of Neural Network to Calibrate Option Pricing Models, Hyun-Gyoon Kim*, Hyeongmi Kim, Jeonggyu Huh*, Computational Economics, 2025 [<a href=\"https://link.springer.com/article/10.1007/s10614-024-10686-2\">Link</a>]",
+          "Deep Learning of Optimal Exercise Boundaries for American Options, Hyun-Gyoon Kim*, Jeonggyu Huh*, International Journal of Computer Mathematics, 2025 [<a href=\"https://www.tandfonline.com/doi/full/10.1080/00207160.2024.2442585\">Link</a>]",
+          "Pontryagin-Guided Direct Policy Optimization for Continuous-Time Portfolio Problem, Jeonggyu Huh*, Jaegi Jeon*, Seung-Won Jeong, Journal of Industrial and Management Optimization, 2025 [<a href=\"https://www.aimsciences.org/article/doi/10.3934/jimo.2025110\">Link</a>]",
+          "Reliable option pricing through deep learning: An anomaly score-based approach, Jihong Park*, Jeonggyu Huh, Jaegi Jeon*, Networks and Heterogeneous Media, 2025 [<a href=\"https://www.aimspress.com/article/doi/10.3934/nhm.2025043\">Link</a>]",
+          "Dual‑Uncertainty Modeling in Financial Time‑Series via VMD‑LSTM with Concrete Dropout and VMD‑WGAN, Jeonggyu Huh*, Dajin Kim, Minseok Jung, Seung-Won Jeong*, Networks and Heterogeneous Media, 2025 [<a href=\"https://www.aimspress.com/article/doi/10.3934/nhm.2025061\">Link</a>]",
+          "[Conference] Bounded Rationality, Reinforcement Learning, and Market Efficiency, Hyun Soo Doh*, Byung Hwa Lim, Jeonggyu Huh, China International Conference in Finance (CICF), 2025 [<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4957050\">Link</a>]",
+          "[Insight Report] AI Bringing Dynamic Portfolio Choice into Reality, The Korean Journal of Financial Studies, 2025 [<a href=\"https://drive.google.com/file/d/1-4TKv232sPvEUc8r_MWaeupeONSsKc96/view?usp=sharing\">Link</a>]"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2024",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.1dhmp8yg5swu\"></a>2024"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Tighter 'Uniform Bounds for Black-Scholes Implied Volatility' and the Applications to Root-Finding, Jaehyuk Choi*,  Jeonggyu Huh, Su Nan, Operations Research Letters, 2024 [<a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0167637724001251\">Link</a>]",
+          "Accelerating SDE Simulation through Learning of Stochastic Dynamics, Seung-Won Jeong*, Ji-Hun Kim, Jitae Jung, Jeonggyu Huh*, Journal of Korean Society for Industrial and Applied Mathematics, 2024 [<a href=\"https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003160878\">Link</a>]",
+          "[Conference] Continuous-Time Portfolio Optimization via Model-based Reinforcement Learning, Jeonggyu Huh, Hyeng-Keun Koo, Byung Hwa Lim*, Financial Management Association (FMA) Asia/Pacific, 2024 [<a href=\"https://www.researchgate.net/profile/Jeonggyu-Huh/publication/384221179_Continuous-time_Portfolio_Optimization_via_Model-based_Reinforcement_Learning/links/66ee887219c9496b1fb2daf9/Continuous-time-Portfolio-Optimization-via-Model-based-Reinforcement-Learning.pdf\">Link</a>]"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2023",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.m0ugjnrkwqj9\"></a>2023"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Variable Annuity with a Surrender Option under Multi-Scale Stochastic Volatility, Jeonggyu Huh*, Junkee Jeon, Kyunghyun Park*, Japan Journal of Industrial and Applied Mathematics, 2023 [<a href=\"https://link.springer.com/article/10.1007/s13160-022-00510-5\">Link</a>]",
+          "Analytical Pricing of Exchange Option with Default Risk under a Stochastic Volatility Model, Jaegi Jeon*, Jeonggyu Huh, Geonwoo Kim*, Advances in Continuous and Discrete Models, 2023 [<a href=\"https://advancesincontinuousanddiscretemodels.springeropen.com/articles/10.1186/s13662-023-03783-3#article-info\">Link</a>]",
+          "Random Augmentation Technique for Mitigating Overfitting in Neural Networks for Financial Time Series Forecasting, Yeonglong Kwak*, Jeonggyu Huh*, Journal of The Korean Data Analysis Society, 2023 [<a href=\"https://scholar.kyobobook.co.kr/builderDownload?artId=16253229&amp;barcode=4010067782706&amp;kyoboKey=YnVpbGRlcjIwMjAhQCMk&amp;gb=view\">Link</a>]"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2022",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.32bwdmv0kphn\"></a>2022"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Extensive Networks Would Eliminate the Demand for Pricing Formulas, Jaegi Jeon*, Kyunghyun Park, Jeonggyu Huh*, Knowledge-Based Systems, 2022 [<a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0950705121010698\">Link</a>]",
+          "Pricing Path-Dependent Exotic Options with Flow-Based Generative Networks,  Hyun-Gyoon Kim*, Se-Jin Kwon, Jeong-Hoon Kim, Jeonggyu Huh*,  Applied Soft Computing, 2022  [<a href=\"https://www.sciencedirect.com/science/article/pii/S1568494622003532\">Link</a>]",
+          "Large Scale Online Learning of Implied Volatilities, Tae-Kyoung Kim*, Hyun-Gyoon Kim, Jeonggyu Huh*, Expert Systems with Applications, 2022 [<a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0957417422007114\">Link</a>]",
+          "Newton–Raphson Emulation Network for Highly Efficient Computation of Numerous Implied Volatilities, Geon Lee*, Tae-Kyoung Kim, Hyun-Gyoon Kim, Jeonggyu Huh*, Journal of Risk and Financial Management, 2022 [<a href=\"https://www.mdpi.com/1911-8074/15/12/616\">Link</a>]"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2021",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.9q40pavw3p2v\"></a>2021"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Consistent and Efficient Pricing of SPX Options and VIX Options under Multi-Scale Stochastic Volatilities, Jaegi Jeon*, Geonwoo Kim, Jeonggyu Huh*, Journal of Futures Markets, 2021 [<a href=\"https://onlinelibrary.wiley.com/doi/10.1002/fut.22190\">Link</a>]",
+          "Asymptotic Expansion Approach to the Valuation of Vulnerable Option under a Multiscale Stochastic Volatility Model, Jaegi Jeon*, Geonwoo Kim, Jeonggyu Huh*, Chaos, Solitons & Fractals, 2021 [<a href=\"https://www.sciencedirect.com/science/article/pii/S0960077920310328?dgcid=author\">Link</a>]",
+          "Pricing of Vulnerable Power Exchange Option under the Hybrid Model, Jaegi Jeon*, Jeonggyu Huh, Geonwoo Kim*, East Asian Mathematical Journal, 2021",
+          "Simplified Approach to Valuation of Vulnerable Exchange Option under a Reduced-Form Model, Jeonggyu Huh*, Jaegi Jeon, Geonwoo Kim*, East Asian Mathematical Journal, 2021"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2020",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.7rt4vi7lcpqh\"></a>2020"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Measuring Systematic Risk with Neural Network Factor Model, Jeonggyu Huh*, Physica A : Statistical Mechanics and its Applications, 2020 [<a href=\"https://www.sciencedirect.com/science/article/pii/S037843711931893X?via%3Dihub\">Link</a>]",
+          "Static Hedges of Barrier Options under Fast Mean-Reverting Stochastic Volatility, Jeonggyu Huh*, Jaegi Jeon, Yong-Ki Ma*, Computational Economics, 2020 [<a href=\"https://link.springer.com/article/10.1007/s10614-019-09883-1\">Link</a>]",
+          "An Analytic Approximation for the Valuation of American Option in Two Regimes, Junkee Jeon*, Jeonggyu Huh, Kyunghyun Park*, Computational Economics, 2020 [<a href=\"https://link.springer.com/article/10.1007/s10614-019-09939-2\">Link</a>]"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2019",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.5p7odhf8kw8o\"></a>2019"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Pricing Options with Exponential Levy Neural Network, Jeonggyu Huh*, Expert Systems with Applications, 2019 [<a href=\"https://www.sciencedirect.com/science/article/pii/S0957417419301617?via%3Dihub\">Link</a>]",
+          "A Reduced PDE Method for European Option Pricing under Multi-Scale, Multi-Factor stochastic volatility, Jeonggyu Huh*, Jaegi Jeon, Jeong-Hoon Kim*, Hyejin Park, Quantitative Finance, 2019 [<a href=\"https://www.tandfonline.com/doi/full/10.1080/14697688.2018.1468081\">Link</a>]",
+          "Barrier Option Pricing with Heavy-Tailed Distribution, Geonwoo Kim*, Jeonggyu Huh*, Economic Computation and Economic Cybernetics Studies and Research, 2019"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "2018",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.5l2pc1m4sm15\"></a>2018"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "A Scaled Version of the Double-Mean-Reverting Model for VIX Derivatives, Jeonggyu Huh*, Jaegi Jeon, Jeong-Hoon Kim*, Mathematics and Financial Economics, 2018 [<a href=\"https://link.springer.com/article/10.1007%2Fs11579-018-0213-8\">Link</a>]"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "2026<br>MethodsX<br>Insurance: Mathematics and Economics <br>Mathematical Reviews<br>Korean Association of Financial Engineering<br>AIMS Mathematics<br>Scientific Reports<br>Finance Research Letters<br>Communications in Statistics<br>Asia-Pacific Financial Markets<br>Journal of Computational and Applied Mathematics<br>Mathematical Control and Related Fields<br>Engineering Analysis with Boundary Elements<br>Neural Information Processing Systems (NeurIPS)<br>North American Journal of Economics and Finance<br>Discover Artificial Intelligence <br>International Review of Economics and Finance<br><br>",
+          "2025 <br>Computational Economics <br>Applied Numerical Mathematics <br>Finance Research Letters <br>Journal of Computational and Applied Mathematics <br>Journal of Derivatives <br>International Journal of Computer Mathematics <br>AIMS Mathematics <br>Journal of Futures Markets <br>Discover Artificial Intelligence <br>Journal of Forecasting <br>Asia-Pacific Financial Markets<br>Decision Analytics Journal <br>Mathematics and Computers in Simulation <br>Communications in Statistics <br>International Review of Financial Analysis",
+          "2024<br>Applied Numerical Mathematics<br>Journal of Computational and Applied Mathematics<br>Computational Economics<br>Journal of the Korean Statistical Society",
+          "2023 <br>Computational Economics<br>Expert Systems With Applications<br>Journal of Computational and Applied Mathematics",
+          "2022<br>Computational and Applied Mathematics<br>Applied Economics Letters<br>Journal of Computational and Applied Mathematics<br>Quantitative Finance and Economics<br>Expert Systems With Applications",
+          "2021<br>Expert Systems With Applications<br>Journal of Futures Markets<br>Chaos, Solitons & Fractals",
+          "2020 <br>Expert Systems With Applications"
+        ]
+      }
+    ]
+  ]
+}

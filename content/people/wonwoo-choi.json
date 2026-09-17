@@ -1,0 +1,28 @@
+{
+  "id": "wonwoo-choi",
+  "name": "Wonwoo Choi",
+  "name_ko": "최원우",
+  "group": "Undergraduate Students",
+  "program": "Undergraduate Student",
+  "order": 11,
+  "image": "",
+  "roles": [],
+  "source": "https://sites.google.com/view/jeonggyuhuh/people",
+  "sections": [
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Papers",
+        "html": "Papers"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Sobolev-Stable Regime-Conditioned DeepONet for Monthly Implied-Volatility Surface Forecasting,  submitted"
+        ]
+      }
+    ]
+  ]
+}

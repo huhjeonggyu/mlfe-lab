@@ -1,0 +1,43 @@
+{
+  "id": "minji-lee",
+  "name": "Minji Lee",
+  "name_ko": "이민지",
+  "group": "Graduate Students",
+  "program": "Master's student (4+)",
+  "order": 4,
+  "image": "assets/images/e6ed014e23056e55.jpg",
+  "roles": [],
+  "source": "https://sites.google.com/view/jeonggyuhuh/people",
+  "sections": [
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Master's Thesis",
+        "html": "Master's Thesis"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Forecasting the VIX Term Structure from the Implied Volatility Surface"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Talks",
+        "html": "Talks"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Deep Operator Learning for Forecasting Multi-scale Implied Volatility Surfaces, The Korean Operations Research and Management Science Society (KORMS), Poster Presentation, Spring 2026"
+        ]
+      }
+    ]
+  ]
+}

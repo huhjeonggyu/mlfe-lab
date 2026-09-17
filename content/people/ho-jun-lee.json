@@ -1,0 +1,29 @@
+{
+  "id": "ho-jun-lee",
+  "name": "Ho-Jun Lee",
+  "name_ko": "이호준",
+  "group": "Graduate Students",
+  "program": "Master's student (1)",
+  "order": 10,
+  "image": "assets/images/5ab69d84acd7d7d5.png",
+  "roles": [],
+  "source": "https://sites.google.com/view/jeonggyuhuh/people",
+  "sections": [
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Papers in Progress",
+        "html": "Papers in Progress"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Sobolev-Stable Regime-Conditioned DeepONet for Monthly Implied-Volatility Surface Forecasting,  submitted",
+          "Scalable Distributionally Robust Portfolio Choice via Pontryagin-Guided Direct Policy Optimization"
+        ]
+      }
+    ]
+  ]
+}

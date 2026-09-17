@@ -1,0 +1,40 @@
+{
+  "id": "seungwon-jeong",
+  "name": "Seungwon Jeong",
+  "name_ko": "정승원",
+  "group": "Postdoctoral Researcher",
+  "program": "Postdoctoral Researcher",
+  "order": 1,
+  "image": "assets/images/8ef9475b2a3fda2d.jpg",
+  "roles": [],
+  "source": "https://sites.google.com/view/jeonggyuhuh/people",
+  "sections": [
+    [
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "[ Goolgle Scholar ]",
+        "html": "[<a href=\"https://scholar.google.com/citations?user=yPY4vyMAAAAJ&amp;hl=ko\">Goolgle Scholar</a>]"
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Papers in Progress",
+        "html": "Papers in Progress"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "MarketGANs: Multivariate Financial Time-Series Data Augmentation Using Generative Adversarial Networks, under revision in Financial Innovation",
+          "Neural Policy Iteration for Dynamic Portfolio Choice with Control-Dependent Diffusion, submitted",
+          "Self-Consistent Adjoint Policy Iteration for Constrained Dynamic Portfolio Choice, submitted",
+          "Computable Welfare Bounds for Constrained Dynamic Portfolio Choice, submitted",
+          "Recovering the Kinks in Delay Control: A Structure-Aware Optimal Control Solver with Pontryagin Projection"
+        ]
+      }
+    ]
+  ]
+}

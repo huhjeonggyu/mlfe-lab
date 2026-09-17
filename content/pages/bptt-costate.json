@@ -1,0 +1,55 @@
+{
+  "title": "Why BPTT ≈ Costate?",
+  "source": "https://sites.google.com/view/jeonggyuhuh/research-pg-dpo/why-bptt-costate",
+  "sections": [
+    [
+      {
+        "type": "image",
+        "src": "assets/images/ce7b70adce3c18bc.png",
+        "alt": ""
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/0a8396d79d3d0c5f.png",
+        "alt": ""
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/70ccdcbf857b2084.png",
+        "alt": ""
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/0fcf001d90233649.png",
+        "alt": ""
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/2a907392ba0c4d8f.png",
+        "alt": ""
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/8c4c7993f9c38c28.png",
+        "alt": ""
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/b846b2d01cf600fd.png",
+        "alt": ""
+      }
+    ]
+  ]
+}

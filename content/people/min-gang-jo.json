@@ -1,0 +1,28 @@
+{
+  "id": "min-gang-jo",
+  "name": "Min-Gang Jo",
+  "name_ko": "조민강",
+  "group": "Graduate Students",
+  "program": "Master's student (4)",
+  "order": 5,
+  "image": "assets/images/9fac4ba5143505a2.png",
+  "roles": [],
+  "source": "https://sites.google.com/view/jeonggyuhuh/people",
+  "sections": [
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Master's Thesis",
+        "html": "Master's Thesis"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Study of Corporate Default Prediction by using Flow Matching"
+        ]
+      }
+    ]
+  ]
+}

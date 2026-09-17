@@ -1,0 +1,31 @@
+{
+  "sections": [
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Research careers",
+        "html": "Research careers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our lab supports students pursuing the following career paths.",
+        "html": "Our lab supports students pursuing the following career paths."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Derivatives modeling and valuation (master’s / PhD):</strong> For students aiming to work at bond pricing agencies, securities firms, and other financial institutions.",
+          "<strong>Asset management (master’s / PhD):</strong> For students pursuing careers in portfolio and asset management at asset management firms and hedge funds.",
+          "<strong>Academic research (PhD):</strong> For students aiming to become researchers or academics in stochastic control and financial engineering."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For further information, please contact jghuh@skku.edu.",
+        "html": "For further information, please contact <a href=\"mailto:jghuh@skku.edu\">jghuh@skku.edu</a>."
+      }
+    ]
+  ]
+}

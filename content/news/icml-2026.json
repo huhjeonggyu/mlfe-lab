@@ -1,0 +1,27 @@
+{
+  "id": "icml-2026",
+  "date": "2026-07-07",
+  "title": "ICML 2026",
+  "title_ko": "고호진 연구원, ICML 포스터 발표",
+  "category": "Conference",
+  "members": [
+    "hojin-ko"
+  ],
+  "source": "https://sites.google.com/view/jeonggyuhuh/home",
+  "sections": [
+    [
+      {
+        "type": "image",
+        "src": "assets/images/76505cd47bfd855c.png",
+        "alt": ""
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Hojin Ko from our lab presented his poster at ICML 2026, held at COEX in Seoul. His presentation was titled “Beyond the Bellman Recursion: A Pontryagin-Guided Framework for Non-Exponential Discounting.” 👏",
+        "html": "Hojin Ko from our lab presented his poster at ICML 2026, held at COEX in Seoul. His presentation was titled “Beyond the Bellman Recursion: A Pontryagin-Guided Framework for Non-Exponential Discounting.” 👏"
+      }
+    ]
+  ],
+  "subtitle": "Hojin Ko presents at ICML in Seoul."
+}

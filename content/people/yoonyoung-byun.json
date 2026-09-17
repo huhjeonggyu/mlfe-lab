@@ -1,0 +1,58 @@
+{
+  "id": "yoonyoung-byun",
+  "name": "Yoonyoung Byun",
+  "name_ko": "변윤영",
+  "group": "Graduate Students",
+  "program": "Master's student (3)",
+  "order": 6,
+  "image": "assets/images/d047ea2fc827df90.jpg",
+  "roles": [],
+  "source": "https://sites.google.com/view/jeonggyuhuh/people",
+  "sections": [
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Papers in Progress",
+        "html": "Papers in Progress"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Pricing the ELS with Deep Operator Network"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Project in Progress",
+        "html": "Project in Progress"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "ELS Hedging Decision-Making System Using Neural Optimal Control, Jul. 2026–Jun. 2027, RiskX-led project, 2026 Seoul FinTech Technology Commercialization Support Program"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Talks",
+        "html": "Talks"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Real-Time Pricing of Equity-Linked Securities Using Deep Operator Networks, The Korean Operations Research and Management Science Society (KORMS), Poster Presentation, Spring 2026"
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "title": "Teaching",
+  "source": "https://sites.google.com/view/jeonggyuhuh/people/principal-investigator/teaching",
+  "sections": [
+    [
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Back to Principal Investigator",
+        "html": "<a href=\"jeonggyu-huh.html\">Back to Principal Investigator</a>"
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Teaching",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.sn5pskfpijor\"></a>Teaching"
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Financial Engineering",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.j0xv2llgjugo\"></a>Financial Engineering"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Basic Financial Mathematics , Sungkyunkwan University, Spring 2025",
+          "Financial Mathematics (graduate), Sungkyunkwan University, Spring 2024-2025, Fall 2026, Spring 2028 (scheduled)",
+          "Advanced Financial Mathematics (graduate), Sungkyunkwan University, Fall 2025, Fall 2027 (scheduled)",
+          "AI for Financial Engineering, K-MOOC, Winter 2021",
+          "Financial Derivatives, Chonnam National University (CNU), Fall 2020",
+          "Financial Statistics, Chonnam National University (CNU), Spring 2020-2023",
+          "Basic Financial Mathematics, Chonnam National University (CNU), Spring 2020",
+          "Mathematics in Financial Society, Yonsei University, Fall 2017, Spring 2018"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Machine Learning",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.tigf41qisqc1\"></a> Machine Learning"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Computational and Applied Mathematics, Sungkyunkwan University, Fall 2024-2025",
+          "Scientific Computing and Deep Learning, Fall 2026",
+          "Probabilistic Generative Models (graduate), Sungkyunkwan University, Fall 2024",
+          "Machine Learning  (graduate), Chonnam National University (CNU), Spring 2022",
+          "Deep Learning (graduate), Chonnam National University (CNU), Fall 2020-2022",
+          "Advanced Deep Learning (graduate), Chonnam National University (CNU), Fall 2023",
+          "Machine Learning, Chonnam National University (CNU), Spring 2023",
+          "Deep Learning, Chonnam National University (CNU), Fall 2021-2023",
+          "Advanced Machine Learning, Chonnam National University (CNU), Spring 2023",
+          "Advanced Deep Learning, Chonnam National University (CNU), Fall 2023"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Mathematics",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.gn8bar9d30m6\"></a>Mathematics"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Calculus 1, Spring 2026"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Programming & Computing",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.7l1ovhdokrwv\"></a>Programming & Computing"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Data Science Computing (graduate), Chonnam National University (CNU), Spring 2021",
+          "Linux Systems, Chonnam National University (CNU), Fall 2021-2022"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Students interested in studying financial mathematics in our lab should be familiar with the following foundations, which are covered in these courses.",
+        "html": "Students interested in studying financial mathematics in our lab should be familiar with the following foundations, which are covered in these courses."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "<strong>Basic Financial Mathematics</strong><br>Fundamentals of financial markets, including stocks, bonds, futures, and options.<br>Related business courses such as Investments or Derivatives may be taken instead.",
+          "<strong>Computational and Applied Mathematics</strong><br>Foundations of machine learning and deep learning.<br>Machine learning courses offered by statistics, computer science, or electrical engineering departments may be taken instead.",
+          "<strong>Scientific Computing and Deep Learning</strong><br>Modern reinforcement learning, traditional control theory, and the integration of control theory and reinforcement learning.",
+          "<strong>Financial Mathematics</strong><br>Fundamentals of derivatives, stochastic calculus, and Black–Scholes theory.",
+          "<strong>Advanced Financial Mathematics</strong><br>The Merton investment–consumption model and stochastic-control-based deep learning methods, including PG-DPO and Deep BSDE."
+        ]
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/5176fb82927c3ff6.png",
+        "alt": ""
+      },
+      {
+        "type": "image",
+        "src": "assets/images/93a9f1ee26c1b2c0.png",
+        "alt": ""
+      }
+    ]
+  ]
+}

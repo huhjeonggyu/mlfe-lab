@@ -1,0 +1,145 @@
+{
+  "title": "Research",
+  "source": "https://sites.google.com/view/jeonggyuhuh/research-pg-dpo",
+  "sections": [
+    [
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "PG-DPO: Pontryagin-Guided Direct Policy Optimization Forward simulation. BPTT costates. Hamiltonian recovery.",
+        "html": "PG-DPO: Pontryagin-Guided Direct Policy Optimization <br>Forward simulation. BPTT costates. Hamiltonian recovery."
+      }
+    ],
+    [
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "[DEMO LINK]",
+        "html": "<a href=\"https://pgdpo-playground.vercel.app/\">[DEMO LINK]</a>"
+      },
+      {
+        "type": "image",
+        "src": "assets/images/9d1dae1d8fd4e969.png",
+        "alt": ""
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Visual Sketch",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.gpx2hghm8dzu\"></a>Visual Sketch"
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "The interactive sketch illustrates the basic PG-DPO mechanism in the Merton model.",
+        "html": "The interactive sketch illustrates the basic PG-DPO mechanism in the Merton model."
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Stage 1: Warm-up A feasible policy network is trained by direct simulation.",
+        "html": "Stage 1: Warm-up<br> A feasible policy network is trained by direct simulation."
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Stage 2: Costate estimation BPTT through continuation rollouts produces pathwise costate estimates. Monte Carlo averaging stabilizes these estimates into an adjoint signal. Stage 3: Control recovery The estimated costate is plugged into the Hamiltonian optimality condition, recovering the control directly.",
+        "html": "Stage 2: Costate estimation<br> BPTT through continuation rollouts produces pathwise costate estimates.<br> Monte Carlo averaging stabilizes these estimates into an adjoint signal.<br><br>Stage 3: Control recovery<br>The estimated costate is plugged into the Hamiltonian optimality condition, recovering the control directly."
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Technical note. Why does BPTT produce costates? [ Read the technical note: BPTT as a Pathwise Costate Solver ]",
+        "html": "Technical note. Why does BPTT produce costates?<br>[<a href=\"bptt-costate.html\">Read the technical note: BPTT as a Pathwise Costate Solver</a>]"
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Core Idea",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.td12xbqm4qps\"></a>Core Idea"
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Classical HJB methods provide rigorous verification, but they often suffer from the curse of dimensionality. Deep reinforcement learning scales better, but it can lose the structural optimality conditions that make continuous-time control interpretable and reliable.",
+        "html": "Classical HJB methods provide rigorous verification, but they often suffer from the curse of dimensionality.<br> Deep reinforcement learning scales better, but it can lose the structural optimality conditions that make continuous-time control interpretable and reliable."
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "PG-DPO aims to keep both sides:",
+        "html": "PG-DPO aims to keep both sides:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "the scalability of neural policies,",
+          "the structural discipline of Pontryagin’s maximum principle,",
+          "and the numerical precision of local Hamiltonian control recovery."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "The central shift is simple:",
+        "html": "The central shift is simple:"
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Do not learn the whole value landscape first. Learn the policy path, estimate the costate, and recover the control locally.",
+        "html": "Do not learn the whole value landscape first.<br> Learn the policy path, estimate the costate, and recover the control locally."
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why Pontryagin-Guided?",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.qcmwf6nwgzkx\"></a>Why Pontryagin-Guided?"
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Many difficult control problems are hard not because the final policy is complex, but because the intermediate structure is delicate.",
+        "html": "Many difficult control problems are hard not because the final policy is complex, but because the intermediate structure is delicate."
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "Examples include:",
+        "html": "Examples include:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "high-dimensional portfolio choice,",
+          "hard constraints,",
+          "parameter uncertainty,",
+          "non-Markovian or delay-driven dynamics,",
+          "non-exponential discounting,",
+          "and transaction costs with no-trade regions."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "level": null,
+        "text": "In these settings, global value-function learning can be unstable or unnecessarily expensive. PG-DPO instead uses simulated rollouts and adjoint sensitivities to enforce local optimality conditions directly.",
+        "html": "In these settings, global value-function learning can be unstable or unnecessarily expensive.<br> PG-DPO instead uses simulated rollouts and adjoint sensitivities to enforce local optimality conditions directly."
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/ce6d507677db3ba6.png",
+        "alt": ""
+      }
+    ]
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Projects",
+  "source": "https://sites.google.com/view/jeonggyuhuh/projects",
+  "sections": [
+    [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Projects",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.eoiqd5bnteef\"></a>Projects"
+      }
+    ],
+    [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "ELS Hedging Decision-Making System Using Neural Optimal Control, RiskX-led project under the 2026 Seoul FinTech Technology Commercialization Support Program, Jul. 2026–Jun. 2027, KRW 100 million per year.<br>Role: Institutional Principal Investigator, Sungkyunkwan University.",
+          "Market Modeling and Investment Optimization with SDE-Based Generative Models and Reinforcement Learning, National Research Foundation of Korea (NRF), Mar. 2025–Feb. 2030, KRW 270 million per year.<br>Role: Principal Investigator.",
+          "Developing an Extended Economic Scenario Generator with Machine Learning, Korea Asset Pricing (KAP), Aug. 2024–Jan. 2025.<br>Role: Principal Investigator.",
+          "Derivative Pricing Algorithm Development Using Deep Learning, National Research Foundation of Korea (NRF), Jun. 2022–Feb. 2025, KRW 90 million per year.<br>Role: Principal Investigator.",
+          "Research on Data-Analysis Scenarios for Institutional Policy Planning, Office of Future Strategy and Policy, Chonnam National University, Aug.–Dec. 2022 and Aug.–Dec. 2023.<br>Role: Principal Investigator.",
+          "Development of a Growth Prediction Model by Livestock Breed, Ministry of Agriculture, Food and Rural Affairs, Apr. 2021–Dec. 2024.<br>Role: Co-Investigator.",
+          "Monitoring of Agricultural-Derived Organic Pollutants in the Agricultural Environment and Establishment of an Environmental Risk Assessment System, Rural Development Administration, Jan. 2021–Dec. 2023.<br>Role: Co-Investigator.",
+          "AI Investment System Based on Reinforcement Learning, National Research Foundation of Korea (NRF), Jun. 2019–Feb. 2022, KRW 50 million per year.<br>Role: Principal Investigator.",
+          "Development of an Investment System Based on Deep Reinforcement Learning, Korea Institute for Advanced Study (KIAS), Sep. 2018–Feb. 2020, KRW 10 million per year.<br>Role: Principal Investigator."
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Patents",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.vlabgby13o0h\"></a>Patents"
+      }
+    ],
+    [
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "U.S. Patent Application (No. 19/252,730, June 27, 2025)<br> System and Method for Optimizing Pension and Insurance Combined Investment Portfolios Considering Personal Consumption Plans<br> Applicants: GNE Tech Holdings, Sungkyunkwan University",
+          "Korean Patent Application (No. 2025-0075020, June 9, 2025)<br> System and Method for Optimizing Pension and Insurance Combined Investment Portfolios Considering Personal Consumption Plans<br> Applicants: GNE Tech Holdings, Sungkyunkwan University"
+        ]
+      }
+    ]
+  ]
+}
