@@ -84,13 +84,14 @@ def home():
     write('index','Home',body)
 def person_card(p):
     pic=image(p['image'],p['name']) if p['image'] else '<div class="portrait-initial">'+e(''.join(w[0] for w in p['name'].split()[:2]))+'</div>'
-    return f'<article class="person-card"><a class="portrait" href="{route_person(p)}">{pic}</a><h3><a href="{route_person(p)}">{e(p["name"])}</a></h3><p class="person-program">{e(p["program"])}</p>'+(''.join('<span class="role">'+e(r)+'</span>' for r in p['roles']))+'</article>'
+    return f'<article class="person-card"><a class="portrait" href="{route_person(p)}">{pic}</a><div class="person-summary"><h3><a href="{route_person(p)}">{e(p["name"])}</a></h3><p class="person-program">{e(p["program"])}</p>'+(''.join('<span class="role">'+e(r)+'</span>' for r in p['roles']))+'</div></article>'
 def build_people():
     body=page_top('THE LAB','People','The people behind our research.')
     body+='<div class="container"><nav class="section-nav" aria-label="People sections"><a href="#faculty">Faculty & postdoc</a><a href="#graduate">Graduate students</a><a href="#undergraduate">Undergraduates</a><a href="#alumni">Alumni</a></nav>'
     for group,label,anchor in [('Principal Investigator','Principal investigator','faculty'),('Postdoctoral Researcher','Postdoctoral researcher','postdoc'),('Graduate Students','Graduate students','graduate'),('Undergraduate Students','Undergraduate students','undergraduate')]:
         pp=[p for p in people if p['group']==group]
-        body+=f'<section class="people-section" id="{anchor}"><div class="section-title"><h2>{label}</h2><span class="count">{len(pp):02d}</span></div><div class="people-grid">'+''.join(person_card(p) for p in pp)+'</div></section>'
+        grid_class="people-grid" if group=="Principal Investigator" else "people-grid people-grid-compact"
+        body+=f'<section class="people-section" id="{anchor}"><div class="section-title"><h2>{label}</h2><span class="count">{len(pp):02d}</span></div><div class="{grid_class}">'+''.join(person_card(p) for p in pp)+'</div></section>'
     body+='<section class="people-section" id="alumni"><div class="section-title"><h2>Alumni</h2></div><div class="alumni-list">'
     for p in people:
         if p['group']=='Alumni': body+=f'<div class="alumni-row"><h3 lang="ko">{e(p["name"])}</h3><span>{e(p["program"])}</span><time>{p.get("graduated","")}</time><span>{e(p.get("placement",""))}</span></div>'
@@ -101,7 +102,8 @@ def build_profiles():
         if p['group']=='Alumni': continue
         name=p['name']; slug='jeonggyu-huh' if p['id']=='jeonggyu-huh' else 'person-'+p['id']
         pic=image(p['image'],name,loading='eager') if p['image'] else '<div class="portrait-initial">'+e(''.join(w[0] for w in name.split()[:2]))+'</div>'
-        body=f'<div class="container profile"><aside class="profile-aside"><div class="profile-photo">{pic}</div><p class="eyebrow">{e(p["group"])}</p><h1>{e(name)}</h1><p>{e(p["program"])}</p>'+''.join('<p class="role">'+e(r)+'</p>' for r in p['roles'])
+        profile_class="profile" if p["id"]=="jeonggyu-huh" else "profile profile-member"
+        body=f'<div class="container {profile_class}"><aside class="profile-aside"><div class="profile-photo">{pic}</div><p class="eyebrow">{e(p["group"])}</p><h1>{e(name)}</h1><p>{e(p["program"])}</p>'+''.join('<p class="role">'+e(r)+'</p>' for r in p['roles'])
         if p['id']=='jeonggyu-huh': body+='<p>Department of Mathematics<br>Sungkyunkwan University</p><p>Natural Science Building 1, #31313</p><a href="mailto:jghuh@skku.edu">jghuh@skku.edu</a><nav class="profile-links" aria-label="Principal investigator"><a href="talks.html">Talks ↗</a><a href="teaching.html">Teaching ↗</a><a href="publications.html">Publications ↗</a></nav>'
         body+='</aside><div class="prose profile-detail">'
         sections=pages['jeonggyu-huh']['sections'][1:] if p['id']=='jeonggyu-huh' else p['sections']
