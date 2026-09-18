@@ -5,7 +5,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 
-/* Compact member directory; the principal investigator retains the original portrait. */
+/* Compact member directory. */
 .people-grid-compact{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 32px}
 .people-grid-compact .person-card{display:grid;grid-template-columns:90px minmax(0,1fr);gap:18px;align-items:start;margin:0;padding-bottom:24px;border-bottom:1px solid var(--line)}
 .people-grid-compact .portrait{width:90px;margin:0}
@@ -28,4 +28,32 @@
  .people-grid-compact h3{font-size:1.05rem}
  .people-grid-compact .portrait-initial{font-size:1.1rem}
  .profile-member .profile-photo{width:74px}
+}
+
+/* PI portrait and identity share a row at half the original portrait size. */
+#faculty .people-grid{grid-template-columns:minmax(0,1fr)}
+#faculty .person-card{display:grid;grid-template-columns:135px minmax(0,1fr);gap:24px;align-items:center;max-width:560px;margin:0}
+#faculty .portrait{width:135px;margin:0}
+#faculty .person-summary{min-width:0}
+#faculty h3{line-height:1.35;margin-bottom:6px}
+#faculty .person-program{margin:0}
+.profile-pi .profile-header{display:grid;grid-template-columns:135px minmax(0,1fr);gap:18px;align-items:center;margin-bottom:24px}
+.profile-pi .profile-photo{width:135px;max-width:none;margin:0}
+.profile-pi .profile-identity{min-width:0}
+.profile-pi .profile-identity .eyebrow{font-size:.6rem;letter-spacing:.08em;margin-bottom:9px}
+.profile-pi .profile-identity h1{font-size:1.5rem;line-height:1.2;margin-bottom:10px}
+.profile-pi .profile-identity p:not(.eyebrow){font-size:.87rem;margin:0}
+@media(max-width:1000px){
+ #faculty .person-card{grid-template-columns:130px minmax(0,1fr)}
+ #faculty .portrait{width:130px}
+ .profile-pi .profile-header{grid-template-columns:120px minmax(0,1fr);gap:16px}
+ .profile-pi .profile-photo{width:120px}
+ .profile-pi .profile-identity h1{font-size:1.35rem}
+}
+@media(max-width:760px){
+ #faculty .person-card{grid-template-columns:clamp(65px,calc((100vw - 60px)/4),110px) minmax(0,1fr);gap:18px}
+ #faculty .portrait{width:100%}
+ .profile-pi .profile-header{grid-template-columns:110px minmax(0,1fr);gap:20px}
+ .profile-pi .profile-photo{width:110px}
+ .profile-pi .profile-identity h1{font-size:1.5rem}
 }

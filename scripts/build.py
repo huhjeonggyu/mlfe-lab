@@ -102,8 +102,11 @@ def build_profiles():
         if p['group']=='Alumni': continue
         name=p['name']; slug='jeonggyu-huh' if p['id']=='jeonggyu-huh' else 'person-'+p['id']
         pic=image(p['image'],name,loading='eager') if p['image'] else '<div class="portrait-initial">'+e(''.join(w[0] for w in name.split()[:2]))+'</div>'
-        profile_class="profile" if p["id"]=="jeonggyu-huh" else "profile profile-member"
-        body=f'<div class="container {profile_class}"><aside class="profile-aside"><div class="profile-photo">{pic}</div><p class="eyebrow">{e(p["group"])}</p><h1>{e(name)}</h1><p>{e(p["program"])}</p>'+''.join('<p class="role">'+e(r)+'</p>' for r in p['roles'])
+        profile_class="profile profile-pi" if p["id"]=="jeonggyu-huh" else "profile profile-member"
+        identity=f'<p class="eyebrow">{e(p["group"])}</p><h1>{e(name)}</h1><p>{e(p["program"])}</p>'+''.join('<p class="role">'+e(r)+'</p>' for r in p['roles'])
+        portrait=f'<div class="profile-photo">{pic}</div>'
+        profile_header='<div class="profile-header">'+portrait+'<div class="profile-identity">'+identity+'</div></div>' if p['id']=='jeonggyu-huh' else portrait+identity
+        body=f'<div class="container {profile_class}"><aside class="profile-aside">'+profile_header
         if p['id']=='jeonggyu-huh': body+='<p>Department of Mathematics<br>Sungkyunkwan University</p><p>Natural Science Building 1, #31313</p><a href="mailto:jghuh@skku.edu">jghuh@skku.edu</a><nav class="profile-links" aria-label="Principal investigator"><a href="talks.html">Talks ↗</a><a href="teaching.html">Teaching ↗</a><a href="publications.html">Publications ↗</a></nav>'
         body+='</aside><div class="prose profile-detail">'
         sections=pages['jeonggyu-huh']['sections'][1:] if p['id']=='jeonggyu-huh' else p['sections']
