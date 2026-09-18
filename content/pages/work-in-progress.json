@@ -4,21 +4,11 @@
   "sections": [
     [
       {
-        "type": "paragraph",
-        "level": null,
-        "text": "Back to Papers",
-        "html": "<a href=\"publications.html\">Back to Papers</a>"
-      }
-    ],
-    [
-      {
         "type": "heading",
         "level": 1,
         "text": "Preprints",
         "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.ef9dcve4uw6x\"></a>Preprints"
-      }
-    ],
-    [
+      },
       {
         "type": "list",
         "ordered": false,

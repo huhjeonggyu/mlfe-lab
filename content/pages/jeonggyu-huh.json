@@ -4,14 +4,6 @@
   "sections": [
     [
       {
-        "type": "paragraph",
-        "level": null,
-        "text": "Back to People",
-        "html": "<a href=\"people.html\">Back to People</a>"
-      }
-    ],
-    [
-      {
         "type": "image",
         "src": "assets/images/c4772ffdfc9764d7.png",
         "alt": ""

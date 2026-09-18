@@ -99,13 +99,12 @@ def build_people():
 def build_profiles():
     for p in people:
         if p['group']=='Alumni': continue
-        crumb='<a class="back-link" href="people.html">← People</a>'
         name=p['name']; slug='jeonggyu-huh' if p['id']=='jeonggyu-huh' else 'person-'+p['id']
         pic=image(p['image'],name,loading='eager') if p['image'] else '<div class="portrait-initial">'+e(''.join(w[0] for w in name.split()[:2]))+'</div>'
-        body=f'<div class="container profile"><aside class="profile-aside">{crumb}<div class="profile-photo">{pic}</div><p class="eyebrow">{e(p["group"])}</p><h1>{e(name)}</h1><p>{e(p["program"])}</p>'+''.join('<p class="role">'+e(r)+'</p>' for r in p['roles'])
+        body=f'<div class="container profile"><aside class="profile-aside"><div class="profile-photo">{pic}</div><p class="eyebrow">{e(p["group"])}</p><h1>{e(name)}</h1><p>{e(p["program"])}</p>'+''.join('<p class="role">'+e(r)+'</p>' for r in p['roles'])
         if p['id']=='jeonggyu-huh': body+='<p>Department of Mathematics<br>Sungkyunkwan University</p><p>Natural Science Building 1, #31313</p><a href="mailto:jghuh@skku.edu">jghuh@skku.edu</a><nav class="profile-links" aria-label="Principal investigator"><a href="talks.html">Talks ↗</a><a href="teaching.html">Teaching ↗</a><a href="publications.html">Publications ↗</a></nav>'
         body+='</aside><div class="prose profile-detail">'
-        sections=pages['jeonggyu-huh']['sections'][2:] if p['id']=='jeonggyu-huh' else p['sections']
+        sections=pages['jeonggyu-huh']['sections'][1:] if p['id']=='jeonggyu-huh' else p['sections']
         body+=render_sections(sections,name,False)
         existing=str(p['sections'])
         related_papers=[paper for paper in publications if p['id'] in paper.get('members',[]) and plain(paper['html']).split(',')[0] not in existing]
@@ -143,7 +142,7 @@ def build_news():
     body+='<div class="container news-archive"><div class="news-grid">'+''.join(news_card(n) for n in news)+'</div></div>'
     write('news','News',body)
     for n in news:
-        body=page_top(n['category'],n['title'],n.get('subtitle',''),'<a class="back-link" href="news.html">← All news</a>')
+        body=page_top(n['category'],n['title'],n.get('subtitle',''))
         body+='<article class="container prose news-detail"><time class="article-date" datetime="'+n['date']+'">'+display_date(n)+'</time>'+render_sections(n['sections'],n['title'],False)
         members=[p for p in people if p['id'] in n.get('members',[])]
         if members: body+='<div class="related-people"><h2>People</h2>'+''.join('<a href="'+route_person(p)+'">'+e(p['name'])+' ↗</a>' for p in members)+'</div>'

@@ -4,14 +4,6 @@
   "sections": [
     [
       {
-        "type": "paragraph",
-        "level": null,
-        "text": "Back to Principal Investigator",
-        "html": "<a href=\"jeonggyu-huh.html\">Back to Principal Investigator</a>"
-      }
-    ],
-    [
-      {
         "type": "heading",
         "level": 1,
         "text": "Teaching",
@@ -112,18 +104,6 @@
           "<strong>Financial Mathematics</strong><br>Fundamentals of derivatives, stochastic calculus, and Black–Scholes theory.",
           "<strong>Advanced Financial Mathematics</strong><br>The Merton investment–consumption model and stochastic-control-based deep learning methods, including PG-DPO and Deep BSDE."
         ]
-      }
-    ],
-    [
-      {
-        "type": "image",
-        "src": "assets/images/5176fb82927c3ff6.png",
-        "alt": ""
-      },
-      {
-        "type": "image",
-        "src": "assets/images/93a9f1ee26c1b2c0.png",
-        "alt": ""
       }
     ]
   ]
