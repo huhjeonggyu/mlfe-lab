@@ -20,7 +20,7 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "Pontryagin-Guided Deep Hedging"
+          "Deep Hedging through Bellman-Guided Direct Policy Optimization"
         ]
       }
     ],

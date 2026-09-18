@@ -34,7 +34,7 @@
         "ordered": false,
         "items": [
           "Finite Horizon and Optimal Portfolio Choice with Stochastic Income: A Reinforcement Learning Approach, with Seyoung Park, Hojin Ko, Alain Bensoussan -> h",
-          "Pontryagin-Guided Deep Hedging, with Seungho Na, Hojin Ko",
+          "Deep Hedging through Bellman-Guided Direct Policy Optimization, with Seungho Na, Hojin Ko",
           "Scalable Distributionally Robust Portfolio Choice via Pontryagin-Guided Direct Policy Optimization, with Ho-Jun Lee",
           "Real-Time Pricing of Equity-Linked Securities Using Deep Operator Networks, with Yoonyoung Byun, Jae Wook Song, Juhwan Kim",
           "Discounted Alpha: A Machine Learning Framework for Equity Valuation, with Dongwan Shin, Thummim Cho"
