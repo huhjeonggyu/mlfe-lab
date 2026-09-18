@@ -86,25 +86,6 @@
           "Linux Systems, Chonnam National University (CNU), Fall 2021-2022"
         ]
       }
-    ],
-    [
-      {
-        "type": "paragraph",
-        "level": null,
-        "text": "Students interested in studying financial mathematics in our lab should be familiar with the following foundations, which are covered in these courses.",
-        "html": "Students interested in studying financial mathematics in our lab should be familiar with the following foundations, which are covered in these courses."
-      },
-      {
-        "type": "list",
-        "ordered": false,
-        "items": [
-          "<strong>Basic Financial Mathematics</strong><br>Fundamentals of financial markets, including stocks, bonds, futures, and options.<br>Related business courses such as Investments or Derivatives may be taken instead.",
-          "<strong>Computational and Applied Mathematics</strong><br>Foundations of machine learning and deep learning.<br>Machine learning courses offered by statistics, computer science, or electrical engineering departments may be taken instead.",
-          "<strong>Scientific Computing and Deep Learning</strong><br>Modern reinforcement learning, traditional control theory, and the integration of control theory and reinforcement learning.",
-          "<strong>Financial Mathematics</strong><br>Fundamentals of derivatives, stochastic calculus, and Black–Scholes theory.",
-          "<strong>Advanced Financial Mathematics</strong><br>The Merton investment–consumption model and stochastic-control-based deep learning methods, including PG-DPO and Deep BSDE."
-        ]
-      }
     ]
   ]
 }
