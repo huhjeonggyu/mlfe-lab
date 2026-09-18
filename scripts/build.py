@@ -120,7 +120,7 @@ def build_articles():
     for slug,active in groups.items():
         p=pages[slug]
         relations={'research':[('research','Overview'),('bptt-costate','Why BPTT ≈ Costate?')],'publications':[('publications','Publications'),('work-in-progress','Work in progress')],'people':[('jeonggyu-huh','Principal investigator'),('talks','Talks'),('teaching','Teaching')]}
-        subnav='<nav class="section-nav" aria-label="Related pages">'+''.join(f'<a href="{s}.html" '+('aria-current="page"' if s==slug else '')+f'>{t}</a>' for s,t in relations.get(active,[]))+'</nav>'
+        subnav='<nav class="section-nav" aria-label="Related pages">'+''.join(f'<a href="{s}.html" '+('aria-current="page"' if s==slug else '')+f'>{t}</a>' for s,t in relations.get(active,[]))+'</nav>' if relations.get(active) else ''
         headings=[b['text'] for i,sec in enumerate(p['sections']) for b in sec if b['type']=='heading' and not (i==0 and all(x['type']=='heading' for x in sec))]
         body=page_top('MLFE LAB',p['title'])
         body+='<div class="container">'+subnav+'<div class="article-layout"><aside class="article-index"><p class="eyebrow">ON THIS PAGE</p>'

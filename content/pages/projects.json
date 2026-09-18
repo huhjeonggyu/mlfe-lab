@@ -5,12 +5,10 @@
     [
       {
         "type": "heading",
-        "level": 1,
+        "level": 2,
         "text": "Projects",
-        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.eoiqd5bnteef\"></a>Projects"
-      }
-    ],
-    [
+        "html": "Projects"
+      },
       {
         "type": "list",
         "ordered": false,
@@ -30,12 +28,10 @@
     [
       {
         "type": "heading",
-        "level": 1,
+        "level": 2,
         "text": "Patents",
-        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.vlabgby13o0h\"></a>Patents"
-      }
-    ],
-    [
+        "html": "Patents"
+      },
       {
         "type": "list",
         "ordered": false,
