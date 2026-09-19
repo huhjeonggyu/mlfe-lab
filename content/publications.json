@@ -9,6 +9,25 @@
     ]
   },
   {
+    "id": "ca4f5f79d45a",
+    "section": "Submitted",
+    "category": "",
+    "html": "MarketGANs: Multivariate Financial Time-Series Data Augmentation Using Generative Adversarial Networks, Jeonggyu Huh*, Seungwon Jeong, Hyeng-Keun Koo, Byung-Hwa Lim, Hyun-Gyoon Kim*, under revision in Financial Innovation [<a href=\"https://arxiv.org/abs/2601.17773\">Link</a>]",
+    "members": [
+      "jeonggyu-huh",
+      "seungwon-jeong"
+    ]
+  },
+  {
+    "id": "039ef51f6f66",
+    "section": "Submitted",
+    "category": "",
+    "html": "Reinforcement Learning and Heterogeneity in Nonlinear Financial Markets, Hyun Soo Doh*, Yunzhi Hu, Jeonggyu Huh, Byung-Hwa Lim, Reject & Resubmit, Management Science [<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7313799\">Link</a>]",
+    "members": [
+      "jeonggyu-huh"
+    ]
+  },
+  {
     "id": "08827762748e",
     "section": "Submitted",
     "category": "",
@@ -56,25 +75,6 @@
     "members": [
       "jeonggyu-huh",
       "seungwon-jeong"
-    ]
-  },
-  {
-    "id": "ca4f5f79d45a",
-    "section": "Submitted",
-    "category": "",
-    "html": "MarketGANs: Multivariate Financial Time-Series Data Augmentation Using Generative Adversarial Networks, Jeonggyu Huh*, Seungwon Jeong, Hyeng-Keun Koo, Byung-Hwa Lim, Hyun-Gyoon Kim*, under revision in Financial Innovation [<a href=\"https://arxiv.org/abs/2601.17773\">Link</a>]",
-    "members": [
-      "jeonggyu-huh",
-      "seungwon-jeong"
-    ]
-  },
-  {
-    "id": "039ef51f6f66",
-    "section": "Submitted",
-    "category": "",
-    "html": "Reinforcement Learning and Heterogeneity in Nonlinear Financial Markets, Hyun Soo Doh*, Yunzhi Hu, Jeonggyu Huh, Byung-Hwa Lim, Reject & Resubmit, Management Science [<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7313799\">Link</a>]",
-    "members": [
-      "jeonggyu-huh"
     ]
   },
   {
