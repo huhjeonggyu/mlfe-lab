@@ -13,7 +13,7 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "Breaking the Dimensional Barrier: A Pontryagin-Guided Direct Policy Optimization for Continuous-Time Multi-Asset Portfolio, Jeonggyu Huh*, Jaegi Jeon, Hyeng-Keun Koo, Byung-Hwa Lim* [<a href=\"https://arxiv.org/abs/2504.11116\">Paper</a>] [<a href=\"https://github.com/huhjeonggyu/PGDPO\">Code</a>] [<a href=\"https://drive.google.com/file/d/1FT8bszys2PfCwGHrfOGsugA11quAbwOJ/view?usp=sharing\">Slides</a>]  -> h",
+          "Breaking the Dimensional Barrier: A Pontryagin-Guided Direct Policy Optimization for Continuous-Time Multi-Asset Portfolio, Jeonggyu Huh*, Jaegi Jeon, Hyeng-Keun Koo, Byung-Hwa Lim* [<a href=\"https://arxiv.org/abs/2504.11116\">Paper</a>] [<a href=\"https://github.com/huhjeonggyu/PGDPO\">Code</a>] [<a href=\"https://drive.google.com/file/d/1FT8bszys2PfCwGHrfOGsugA11quAbwOJ/view?usp=sharing\">Slides</a>]",
           "Breaking the Dimensional Barrier: Dynamic Portfolio Choice with Parameter Uncertainty via Pontryagin Projection, Jeonggyu Huh*, Hyeng-Keun Koo [<a href=\"https://arxiv.org/abs/2601.03175\">Paper</a>] [<a href=\"https://drive.google.com/file/d/1ba9E1xUuK1ReHtl0APWkQ70JScyxys1F/view?usp=sharing\">Slide</a>]",
           "From Value Bounds to Policy-Distance and Active-Face Certificates: Same-Grid Duality for Constrained Dynamic Portfolios [<a href=\"http://arxiv.org/abs/2608.05901\">Link</a>]",
           "A Computational Framework for Decision-Aligned Conditional Betas in Cost-Aware Portfolio Optimization, Dongwan Shin*, Hojin Ko, Jeonggyu Huh*"
@@ -33,6 +33,7 @@
         "type": "list",
         "ordered": false,
         "items": [
+          "Learning and Refining Portfolio Policies: Analytical Benchmarks, Constraints, and Decision Accuracy, Jeonggyu Huh, Jaegi Jeon, Hyeng Keun Koo, Byung Hwa Lim",
           "Finite Horizon and Optimal Portfolio Choice with Stochastic Income: A Reinforcement Learning Approach, with Seyoung Park, Hojin Ko, Alain Bensoussan -> h",
           "Deep Hedging through Bellman-Guided Direct Policy Optimization, with Seungho Na, Hojin Ko",
           "Scalable Distributionally Robust Portfolio Choice via Pontryagin-Guided Direct Policy Optimization, with Ho-Jun Lee",
