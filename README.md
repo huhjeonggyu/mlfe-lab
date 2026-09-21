@@ -86,3 +86,10 @@ Submitted 논문은 세부 연구 분야 구분 없이 하나의 목록으로 �
 빌드 시 모든 페이지에 Google 태그가 한 번씩 삽입됩니다. `huhjeonggyu.github.io`에서만 로드하며 로컬 미리보기에서는 전송하지 않습니다. GA4의 기본 page_view를 사용하므로 별도의 page_view 이벤트를 중복 전송하지 않습니다.
 
 도메인이 바뀌면 `scripts/build.py`의 Analytics 호스트 조건도 변경해야 합니다. 설치 후 Google Analytics의 실시간 보고서에서 수집 여부를 확인할 수 있습니다.
+
+
+## Research overview
+
+Research는 경로 미분을 이용한 국소 제어 복원, OL-BPTT/PMP와 CL-BPTT/HJB, 정책 갱신 연산자, 문제별 확장과 한계를 중심으로 구성합니다. 본문과 도식은 `content/pages/research.json`, 전용 스타일은 `assets/research.css`에서 관리합니다.
+
+Research의 두 수식은 MathJax 4.0.0으로 표시하며 해당 페이지에서만 불러옵니다. 원본 수식 이미지는 변경하지 않았고, 이전 BPTT 기술 노트는 Research 하단의 Earlier technical material에서 접근할 수 있습니다.

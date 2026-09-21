@@ -1,0 +1,73 @@
+/* Research overview: a common control principle and its extensions. */
+.research-page .article-layout{padding-top:12px;gap:58px;grid-template-columns:190px minmax(0,1fr)}
+.research-page .article-index{border-top:2px solid var(--navy);padding-top:20px}
+.research-prose>.prose-section{padding-bottom:42px;margin-bottom:42px}
+.research-prose h2{font-size:1.85rem;letter-spacing:-.035em;margin-bottom:22px}
+.research-prose p{line-height:1.8}
+.research-intro{padding:0 0 2px}
+.research-intro .research-statement{font-size:clamp(2.1rem,3.5vw,3rem);font-weight:500;line-height:1.15;letter-spacing:-.045em;margin-bottom:25px}
+.research-intro strong{font-weight:600;color:var(--blue)}
+.research-prose .recovery-flow{list-style:none;padding:0;margin:28px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--line);background:var(--pale)}
+.research-prose .recovery-flow li{position:relative;margin:0;padding:24px 20px;min-width:0}
+.recovery-flow li+li{border-left:1px solid var(--line)}
+.recovery-flow .flow-number{font-size:.75rem;letter-spacing:.1em;color:var(--blue);display:block;margin-bottom:17px}
+.recovery-flow strong{display:block;font-size:1.02rem;line-height:1.4;margin-bottom:8px}
+.recovery-flow li>span:last-child{display:block;font-size:.84rem;color:var(--muted);line-height:1.55}
+.recovery-flow li+li:before{content:'→';position:absolute;left:-11px;top:25px;color:var(--blue);background:var(--pale);width:22px;text-align:center}
+.research-equation{margin:28px 0;padding:22px 25px;background:#f7f9fc;border-left:3px solid var(--blue);min-width:0}
+.research-equation .equation-label{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;line-height:1.5}
+.research-equation>p:last-child{font-size:.87rem;line-height:1.7;color:var(--muted);margin:12px 0 0}
+.math-display{overflow-x:auto;overflow-y:hidden;padding:5px 0;max-width:100%;font-size:1rem}
+.math-display mjx-container[display='true']{margin:.6em 0!important}
+.derivative-routes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:26px 0 22px}
+.derivative-route{padding:24px;background:var(--pale);border-top:3px solid var(--blue);min-width:0}
+.derivative-route:nth-child(2){border-color:var(--navy)}
+.derivative-route .route-label{font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;line-height:1.7;color:var(--muted);margin-bottom:15px}
+.derivative-route .route-title{display:block;font-size:1.18rem;font-weight:500;line-height:1.35;margin-bottom:16px;letter-spacing:-.02em}
+.derivative-route>p:last-child{font-size:.92rem;line-height:1.75;margin:0}
+.research-detail{border-top:1px solid var(--line);padding:15px 0 0;margin-top:24px}
+.research-detail summary{cursor:pointer;font-size:.9rem;font-weight:600;color:var(--blue);padding:3px 0}
+.research-detail summary:focus-visible{outline:3px solid #437fed;outline-offset:5px}
+.research-detail>p{font-size:.9rem;margin:14px 0 0;line-height:1.8}
+.operator-questions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 30px;margin:26px 0}
+.operator-questions>div{padding:17px 0 0;border-top:1px solid var(--line)}
+.operator-questions dt{font-size:1rem;font-weight:600;margin-bottom:5px}
+.operator-questions dd{margin:0;font-size:.9rem;color:var(--muted);line-height:1.7}
+.control-domains{margin:26px 0}
+.control-domains>div{display:grid;grid-template-columns:190px minmax(0,1fr);gap:24px;border-top:1px solid var(--line);padding:22px 0}
+.control-domains strong{font-size:.98rem;font-weight:600;line-height:1.5}
+.control-domains p{font-size:.93rem;color:var(--muted);margin:0;line-height:1.75}
+.research-prose .selected-research{list-style:none;padding:0;margin:25px 0}
+.research-prose .selected-research li{padding:20px 0;margin:0;border-top:1px solid var(--line)}
+.selected-research li>span{display:block;color:var(--muted);font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:7px}
+.selected-research li>a{display:block;font-size:1rem;line-height:1.6;text-decoration:none}
+.selected-research li>a:hover{text-decoration:underline}
+.research-links{display:flex;gap:15px 26px;flex-wrap:wrap;margin-top:24px}
+.research-links a{font-size:.88rem}
+.research-archive summary{font-weight:400;color:var(--muted)}
+@media(max-width:1000px){
+ .research-page .article-layout{grid-template-columns:155px minmax(0,1fr);gap:35px}
+ .derivative-routes{grid-template-columns:1fr}
+ .control-domains>div{grid-template-columns:160px minmax(0,1fr);gap:18px}
+ .recovery-flow strong{font-size:.94rem}
+ .research-prose .recovery-flow li{padding:20px 14px}
+}
+@media(max-width:760px){
+ .research-page .article-layout{grid-template-columns:1fr;gap:28px;padding-top:6px}
+ .research-page .article-index{padding-top:16px}
+ .research-prose>.prose-section{padding-bottom:30px;margin-bottom:30px}
+ .research-prose h2{font-size:1.55rem}
+ .research-intro .research-statement{font-size:2.1rem;line-height:1.2;margin-bottom:22px}
+ .research-prose .recovery-flow{grid-template-columns:1fr;margin:23px 0}
+ .research-prose .recovery-flow li{padding:18px 18px 18px 53px}
+ .recovery-flow .flow-number{position:absolute;left:17px;top:18px;margin:0}
+ .recovery-flow li+li{border-left:0;border-top:1px solid var(--line)}
+ .recovery-flow li+li:before{content:none}
+ .recovery-flow strong{font-size:1rem;margin-bottom:4px}
+ .derivative-route{padding:21px}
+ .research-equation{padding:17px 12px;margin:24px 0}
+ .math-display{font-size:.84rem}
+ .operator-questions{grid-template-columns:1fr;gap:10px;margin:22px 0}
+ .control-domains>div{grid-template-columns:1fr;gap:8px;padding:18px 0}
+ .research-links{flex-direction:column;gap:15px}
+}

@@ -46,13 +46,20 @@ def analytics_tag():
 }})();
 </script>"""
 
+def page_assets(slug):
+    tags=[]
+    if slug=='research': tags.append('<link rel="stylesheet" href="assets/research.css">')
+    if pages.get(slug,{}).get('math'):
+        tags.append('<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-chtml.js"></script>')
+    return ''.join(tags)
+
 def shell(slug,title,body,active=None):
     links=''.join(f'<a href="{key}.html" '+('aria-current="page"' if (active or slug)==key else '')+f'>{label}</a>' for key,label in nav)
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8">{analytics_tag()}<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)} · SKKU MLFE Lab</title><meta name="description" content="Machine Learning & Financial Engineering at Sungkyunkwan University. Research, people, publications and news from the MLFE Lab.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css">
-<script src="assets/site.js" defer></script></head><body>
+<script src="assets/site.js" defer></script>{page_assets(slug)}</head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="container header-inner"><a class="brand" href="index.html" aria-label="SKKU MLFE Lab home"><span class="brand-mark">M<span>↗</span></span><span><strong>MLFE<span class="brand-lab"> LAB</span></strong><small>SUNGKYUNKWAN UNIVERSITY</small></span></a>
 <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button>
@@ -71,6 +78,7 @@ def render_block(b,context=''):
         level=max(2,min(4,b.get('level',2)))
         return f'<h{level}>{e(b["text"])}</h{level}>'
     if t=='paragraph': return '<p>'+b['html']+'</p>'
+    if t=='html': return b['html']
     if t=='list':
         tag='ol' if b.get('ordered') else 'ul'
         return '<'+tag+'>'+''.join('<li>'+s+'</li>' for s in b['items'])+'</'+tag+'>'
@@ -146,12 +154,13 @@ def build_articles():
         relations={'research':[('research','Overview'),('bptt-costate','Why BPTT ≈ Costate?')],'publications':[('publications','Publications'),('work-in-progress','Work in progress')],'people':[('jeonggyu-huh','Principal investigator'),('talks','Talks'),('teaching','Teaching')]}
         subnav='<nav class="section-nav" aria-label="Related pages">'+''.join(f'<a href="{s}.html" '+('aria-current="page"' if s==slug else '')+f'>{t}</a>' for s,t in relations.get(active,[]))+'</nav>' if relations.get(active) else ''
         headings=[b['text'] for i,sec in enumerate(p['sections']) for b in sec if b['type']=='heading' and not (i==0 and all(x['type']=='heading' for x in sec))]
-        body=page_top('MLFE LAB',p['title'])
-        body+='<div class="container">'+subnav+'<div class="article-layout"><aside class="article-index"><p class="eyebrow">ON THIS PAGE</p>'
+        if slug=='research': subnav=''
+        body=page_top('MLFE LAB',p['title'],p.get('subtitle',''))
+        body+='<div class="container'+(' research-page' if slug=='research' else '')+'">'+subnav+'<div class="article-layout"><aside class="article-index"><p class="eyebrow">ON THIS PAGE</p>'
         if headings:
             body+=''.join(f'<a href="#section-{i}">{e(h)}</a>' for i,h in enumerate(headings))
         else: body+='<a href="#article">Research notes</a>'
-        body+='</aside><article id="article" class="prose '+('note-images' if slug=='bptt-costate' else '')+'">'
+        body+='</aside><article id="article" class="prose '+('note-images' if slug=='bptt-costate' else 'research-prose' if slug=='research' else '')+'">'
         content=render_sections(p['sections'],p['title'])
         count=0
         def heading_id(m):
