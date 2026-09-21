@@ -33,7 +33,7 @@
       },
       {
         "type": "html",
-        "html": "<div class=\"research-equation\"><p class=\"equation-label\">Schematic regular-control form</p><div class=\"math-display\">\\[\\begin{aligned}u^{+}(t,x)&amp;\\in\\underset{u\\in\\mathcal U(t,x)}{\\arg\\max}\\\\[-2pt]&amp;\\qquad\\mathcal H\\!\\left(t,x,u;\\mathcal I^{\\pi}(t,x)\\right).\\end{aligned}\\]</div><p>Here, \\(\\mathcal I^{\\pi}\\) denotes the information extracted under the candidate policy, and \\(\\mathcal U\\) is the admissible control set. The information and Hamiltonian depend on the formulation.</p></div>"
+        "html": "<div class=\"research-equation\"><p class=\"equation-label\">Schematic regular-control form</p><div class=\"math-display recovery-math-wide\">\\[u^{+}(t,x)\\in\\operatorname*{arg\\,max}_{u\\in\\mathcal U(t,x)}\\;\\mathcal H\\!\\left(t,x,u;\\mathcal I^{\\pi}(t,x)\\right).\\]</div><div class=\"math-display recovery-math-compact\">\\[\\begin{gathered}u^{+}(t,x)\\in\\\\[4pt]\\operatorname*{arg\\,max}_{u\\in\\mathcal U(t,x)}\\;\\mathcal H\\!\\left(t,x,u;\\mathcal I^{\\pi}(t,x)\\right).\\end{gathered}\\]</div><p>Here, \\(\\mathcal I^{\\pi}\\) denotes the information extracted under the candidate policy, and \\(\\mathcal U\\) is the admissible control set. The information and Hamiltonian depend on the formulation.</p></div>"
       },
       {
         "type": "paragraph",

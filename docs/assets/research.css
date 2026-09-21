@@ -71,3 +71,13 @@
  .control-domains>div{grid-template-columns:1fr;gap:8px;padding:18px 0}
  .research-links{flex-direction:column;gap:15px}
 }
+
+/* Keep the maximization operator together with its objective. */
+.recovery-math-compact{display:none}
+@media(max-width:600px){
+ .recovery-math-wide{display:none}
+ .recovery-math-compact{display:block}
+}
+@media(max-width:360px){
+ .recovery-math-compact{font-size:.78rem}
+}
