@@ -1,5 +1,18 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta charset="utf-8"><script>
+(function () {
+  // Count visits to the published site only, excluding local previews.
+  if (window.location.hostname !== 'huhjeonggyu.github.io') return;
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  gtag('js', new Date());
+  gtag('config', 'G-ZN51HGJ61H');
+  var tag = document.createElement('script');
+  tag.async = true;
+  tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-ZN51HGJ61H';
+  document.head.appendChild(tag);
+})();
+</script><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Projects · SKKU MLFE Lab</title><meta name="description" content="Machine Learning & Financial Engineering at Sungkyunkwan University. Research, people, publications and news from the MLFE Lab.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css">
 <script src="assets/site.js" defer></script></head><body>

@@ -77,3 +77,12 @@ docs는 생성 결과입니다. 직접 수정하지 말고 content 또는 assets
 Submitted 논문은 세부 연구 분야 구분 없이 하나의 목록으로 표시합니다.
 
 홈의 Our research 소개 문단만 한·영 병기를 유지하고 나머지 화면은 영어를 기본으로 합니다. 영문 표기가 확인되지 않은 졸업생 인명과 원본 사진 속 글자는 그대로 보존합니다.
+
+
+## Google Analytics
+
+`content/site.json`의 `google_analytics_measurement_id`로 GA4 측정 ID를 관리합니다. 현재 ID는 `G-ZN51HGJ61H`입니다. 값을 비우면 추적 코드를 생성하지 않습니다.
+
+빌드 시 모든 페이지에 Google 태그가 한 번씩 삽입됩니다. `huhjeonggyu.github.io`에서만 로드하며 로컬 미리보기에서는 전송하지 않습니다. GA4의 기본 page_view를 사용하므로 별도의 page_view 이벤트를 중복 전송하지 않습니다.
+
+도메인이 바뀌면 `scripts/build.py`의 Analytics 호스트 조건도 변경해야 합니다. 설치 후 Google Analytics의 실시간 보고서에서 수집 여부를 확인할 수 있습니다.

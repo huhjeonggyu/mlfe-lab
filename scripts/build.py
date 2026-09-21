@@ -26,10 +26,30 @@ for section in dict.fromkeys(p['section'] for p in publications):
 pages['publications']['sections']=publication_sections
 nav=[('index','Home'),('research','Research'),('people','People'),('publications','Publications'),('projects','Projects'),('news','News')]
 def route_person(p): return 'jeonggyu-huh.html' if p['id']=='jeonggyu-huh' else 'person-'+p['id']+'.html'
+def analytics_tag():
+    measurement_id=load('content/site.json').get('google_analytics_measurement_id','')
+    if not measurement_id: return ''
+    if not re.fullmatch(r'G-[A-Z0-9]+',measurement_id):
+        raise ValueError('Invalid Google Analytics measurement ID')
+    return f"""<script>
+(function () {{
+  // Count visits to the published site only, excluding local previews.
+  if (window.location.hostname !== 'huhjeonggyu.github.io') return;
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () {{ window.dataLayer.push(arguments); }};
+  gtag('js', new Date());
+  gtag('config', '{measurement_id}');
+  var tag = document.createElement('script');
+  tag.async = true;
+  tag.src = 'https://www.googletagmanager.com/gtag/js?id={measurement_id}';
+  document.head.appendChild(tag);
+}})();
+</script>"""
+
 def shell(slug,title,body,active=None):
     links=''.join(f'<a href="{key}.html" '+('aria-current="page"' if (active or slug)==key else '')+f'>{label}</a>' for key,label in nav)
     return f'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta charset="utf-8">{analytics_tag()}<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)} · SKKU MLFE Lab</title><meta name="description" content="Machine Learning & Financial Engineering at Sungkyunkwan University. Research, people, publications and news from the MLFE Lab.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css">
 <script src="assets/site.js" defer></script></head><body>
