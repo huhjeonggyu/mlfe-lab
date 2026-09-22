@@ -9,15 +9,17 @@
   "sections": [
     [
       {
-        "type": "image",
-        "src": "assets/images/8189f0831e4edd11.png",
-        "alt": ""
-      },
-      {
         "type": "paragraph",
         "level": null,
         "text": "MLFE Lab attended the 2026 KORMS Spring Joint Conference, held in Gyeongju. Most of our lab members participated in the conference and presented their research in oral and poster sessions. Great job, everyone. 🥹",
         "html": "MLFE Lab attended the 2026 KORMS Spring Joint Conference, held in Gyeongju. Most of our lab members participated in the conference and presented their research in oral and poster sessions. Great job, everyone. 🥹"
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/8189f0831e4edd11.png",
+        "alt": ""
       }
     ],
     [
