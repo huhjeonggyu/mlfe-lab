@@ -33,7 +33,8 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "Learning and Refining Portfolio Policies: Analytical Benchmarks, Constraints, and Decision Accuracy, Jeonggyu Huh, Jaegi Jeon, Hyeng Keun Koo, Byung Hwa Lim",
+          "How Far Can Analytical Portfolio Rules Take Us? Learning and Refining Consumption and Investment, Jeonggyu Huh, Jaegi Jeon, Hyeng Keun Koo, Byung Hwa Lim",
+          "Connecting World Models to Actions: Critic-Free Policy Correction in Gaussian Belief Space",
           "Finite Horizon and Optimal Portfolio Choice with Stochastic Income: A Reinforcement Learning Approach, with Seyoung Park, Hojin Ko, Alain Bensoussan -> h",
           "Deep Hedging through Bellman-Guided Direct Policy Optimization, with Seungho Na, Hojin Ko",
           "Scalable Distributionally Robust Portfolio Choice via Pontryagin-Guided Direct Policy Optimization, with Ho-Jun Lee",
