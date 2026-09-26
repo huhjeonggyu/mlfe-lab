@@ -34,7 +34,7 @@
         "ordered": false,
         "items": [
           "How Far Can Analytical Portfolio Rules Take Us? Learning and Refining Consumption and Investment, Jeonggyu Huh, Jaegi Jeon, Hyeng Keun Koo, Byung Hwa Lim",
-          "Connecting World Models to Actions: Critic-Free Policy Correction in Gaussian Belief Space",
+          "Amortized Feedback Planning: Turning Model-Based Rollouts into Executable Policies",
           "Finite Horizon and Optimal Portfolio Choice with Stochastic Income: A Reinforcement Learning Approach, with Seyoung Park, Hojin Ko, Alain Bensoussan",
           "Deep Hedging through Bellman-Guided Direct Policy Optimization, with Seungho Na, Hojin Ko",
           "Scalable Distributionally Robust Portfolio Choice via Pontryagin-Guided Direct Policy Optimization, with Ho-Jun Lee",
