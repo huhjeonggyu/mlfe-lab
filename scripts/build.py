@@ -9,7 +9,8 @@ generated=set()
 def load(p): return json.loads((ROOT/p).read_text(encoding='utf-8-sig'))
 def e(s): return escape(str(s),quote=True)
 def plain(s): return re.sub('<[^>]+>','',s).strip()
-people=sorted([load(p.relative_to(ROOT)) for p in (ROOT/'content/people').glob('*.json')],key=lambda p:p.get('order',0))
+all_people=sorted([load(p.relative_to(ROOT)) for p in (ROOT/'content/people').glob('*.json')],key=lambda p:p.get('order',0))
+people=[p for p in all_people if p.get('visible',True)]
 news=sorted([load(p.relative_to(ROOT)) for p in (ROOT/'content/news').glob('*.json')],key=lambda n:n['date'],reverse=True)
 pages={p.stem:load(p.relative_to(ROOT)) for p in (ROOT/'content/pages').glob('*.json')}
 publications=load('content/publications.json')
@@ -115,9 +116,11 @@ def person_card(p):
     return f'<article class="person-card"><a class="portrait" href="{route_person(p)}">{pic}</a><div class="person-summary"><h3><a href="{route_person(p)}">{e(p["name"])}</a></h3><p class="person-program">{e(p["program"])}</p>'+(''.join('<span class="role">'+e(r)+'</span>' for r in p['roles']))+'</div></article>'
 def build_people():
     body=page_top('THE LAB','People','The people behind our research.')
-    body+='<div class="container"><nav class="section-nav" aria-label="People sections"><a href="#faculty">Faculty & postdoc</a><a href="#graduate">Graduate students</a><a href="#undergraduate">Undergraduates</a><a href="#alumni">Alumni</a></nav>'
+    faculty_label='Faculty & postdoc' if any(p['group']=='Postdoctoral Researcher' for p in people) else 'Faculty'
+    body+=f'<div class="container"><nav class="section-nav" aria-label="People sections"><a href="#faculty">{faculty_label}</a><a href="#graduate">Graduate students</a><a href="#undergraduate">Undergraduates</a><a href="#alumni">Alumni</a></nav>'
     for group,label,anchor in [('Principal Investigator','Principal investigator','faculty'),('Postdoctoral Researcher','Postdoctoral researcher','postdoc'),('Graduate Students','Graduate students','graduate'),('Undergraduate Students','Undergraduate students','undergraduate')]:
         pp=[p for p in people if p['group']==group]
+        if group=='Postdoctoral Researcher' and not pp: continue
         grid_class="people-grid" if group=="Principal Investigator" else "people-grid people-grid-compact"
         body+=f'<section class="people-section" id="{anchor}"><div class="section-title"><h2>{label}</h2><span class="count">{len(pp):02d}</span></div><div class="{grid_class}">'+''.join(person_card(p) for p in pp)+'</div></section>'
     body+='<section class="people-section" id="alumni"><div class="section-title"><h2>Alumni</h2></div><div class="alumni-list">'
@@ -195,10 +198,12 @@ build_contact()
 write('404','Page not found',page_top('404','Page not found','The page you are looking for could not be found.')+'<div class="container not-found"><a class="button" href="index.html">Back to home</a></div>')
 shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
 (OUT/'.nojekyll').touch()
-# Only retire pages previously recorded as generated, never arbitrary user files.
+# Retire recorded generated pages and explicitly hidden member profiles.
 manifest=OUT/'.generated-pages.json'
-previous=json.loads(manifest.read_text(encoding='utf-8')) if manifest.exists() else []
-for name in set(previous)-generated:
+previous=set(json.loads(manifest.read_text(encoding='utf-8'))) if manifest.exists() else set()
+# Retire hidden profiles even on a checkout without a generated-page manifest.
+previous.update(route_person(p) for p in all_people if not p.get('visible',True))
+for name in previous-generated:
     if re.fullmatch(r'[a-z0-9-]+\.html',name):
         target=(OUT/name).resolve()
         if target.parent==OUT.resolve() and target.exists(): target.unlink()
