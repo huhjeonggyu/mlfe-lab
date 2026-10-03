@@ -17,7 +17,8 @@
           "Breaking the Dimensional Barrier: Dynamic Portfolio Choice with Parameter Uncertainty via Pontryagin Projection, Jeonggyu Huh*, Hyeng-Keun Koo [<a href=\"https://arxiv.org/abs/2601.03175\">Paper</a>] [<a href=\"https://drive.google.com/file/d/1ba9E1xUuK1ReHtl0APWkQ70JScyxys1F/view?usp=sharing\">Slide</a>]",
           "From Value Bounds to Policy-Distance and Active-Face Certificates: Same-Grid Duality for Constrained Dynamic Portfolios [<a href=\"http://arxiv.org/abs/2608.05901\">Link</a>]",
           "A Computational Framework for Decision-Aligned Conditional Betas in Cost-Aware Portfolio Optimization, Dongwan Shin*, Hojin Ko, Jeonggyu Huh*",
-          "Neural Policy Iteration for Dynamic Portfolio Choice with Control-Dependent Diffusion, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*"
+          "Neural Policy Iteration for Dynamic Portfolio Choice with Control-Dependent Diffusion, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*",
+          "Amortized Feedback Planning: Turning Model-Based Rollouts into Executable Policies, Jeonggyu Huh* [<a href=\"https://arxiv.org/abs/2609.35012\">Link</a>]"
         ]
       }
     ],
