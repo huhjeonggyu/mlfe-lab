@@ -23,7 +23,6 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "A Computational Framework for Decision-Aligned Conditional Betas in Cost-Aware Portfolio Optimization",
           "Discounted Alpha: A Machine Learning Framework for Equity Valuation"
         ]
       }
