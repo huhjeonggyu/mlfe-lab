@@ -6,31 +6,9 @@
       {
         "type": "heading",
         "level": 1,
-        "text": "Preprints",
-        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.ef9dcve4uw6x\"></a>Preprints"
-      },
-      {
-        "type": "list",
-        "ordered": false,
-        "items": [
-          "Breaking the Dimensional Barrier: A Pontryagin-Guided Direct Policy Optimization for Continuous-Time Multi-Asset Portfolio, Jeonggyu Huh*, Jaegi Jeon, Hyeng-Keun Koo, Byung-Hwa Lim* [<a href=\"https://arxiv.org/abs/2504.11116\">Paper</a>] [<a href=\"https://github.com/huhjeonggyu/PGDPO\">Code</a>] [<a href=\"https://drive.google.com/file/d/1FT8bszys2PfCwGHrfOGsugA11quAbwOJ/view?usp=sharing\">Slides</a>]",
-          "Breaking the Dimensional Barrier: Dynamic Portfolio Choice with Parameter Uncertainty via Pontryagin Projection, Jeonggyu Huh*, Hyeng-Keun Koo [<a href=\"https://arxiv.org/abs/2601.03175\">Paper</a>] [<a href=\"https://drive.google.com/file/d/1ba9E1xUuK1ReHtl0APWkQ70JScyxys1F/view?usp=sharing\">Slide</a>]",
-          "From Value Bounds to Policy-Distance and Active-Face Certificates: Same-Grid Duality for Constrained Dynamic Portfolios [<a href=\"http://arxiv.org/abs/2608.05901\">Link</a>]",
-          "A Computational Framework for Decision-Aligned Conditional Betas in Cost-Aware Portfolio Optimization, Dongwan Shin*, Hojin Ko, Jeonggyu Huh*",
-          "Neural Policy Iteration for Dynamic Portfolio Choice with Control-Dependent Diffusion, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*",
-          "Amortized Feedback Planning: Turning Model-Based Rollouts into Executable Policies, Jeonggyu Huh* [<a href=\"https://arxiv.org/abs/2609.35012\">Link</a>]"
-        ]
-      }
-    ],
-    [
-      {
-        "type": "heading",
-        "level": 1,
         "text": "Papers in Progress",
         "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.2wff3f1a6ari\"></a>Papers in Progress"
-      }
-    ],
-    [
+      },
       {
         "type": "list",
         "ordered": false,
@@ -41,6 +19,26 @@
           "Scalable Distributionally Robust Portfolio Choice via Pontryagin-Guided Direct Policy Optimization, with Ho-Jun Lee",
           "Real-Time Pricing of Equity-Linked Securities Using Deep Operator Networks, with Yoonyoung Byun, Jae Wook Song, Juhwan Kim",
           "Discounted Alpha: A Machine Learning Framework for Equity Valuation, with Dongwan Shin, Thummim Cho"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 1,
+        "text": "Arxiv",
+        "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.ef9dcve4uw6x\"></a>Arxiv"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Breaking the Dimensional Barrier: A Pontryagin-Guided Direct Policy Optimization for Continuous-Time Multi-Asset Portfolio, 2025, Jeonggyu Huh*, Jaegi Jeon, Hyeng-Keun Koo, Byung-Hwa Lim* [<a href=\"https://arxiv.org/abs/2504.11116\">Paper</a>] [<a href=\"https://github.com/huhjeonggyu/PGDPO\">Code</a>] [<a href=\"https://drive.google.com/file/d/1FT8bszys2PfCwGHrfOGsugA11quAbwOJ/view?usp=sharing\">Slides</a>]",
+          "Breaking the Dimensional Barrier: Dynamic Portfolio Choice with Parameter Uncertainty via Pontryagin Projection, 2026, Jeonggyu Huh*, Hyeng-Keun Koo [<a href=\"https://arxiv.org/abs/2601.03175\">Paper</a>] [<a href=\"https://drive.google.com/file/d/1ba9E1xUuK1ReHtl0APWkQ70JScyxys1F/view?usp=sharing\">Slide</a>]",
+          "From Value Bounds to Policy-Distance and Active-Face Certificates: Same-Grid Duality for Constrained Dynamic Portfolios, 2026 [<a href=\"http://arxiv.org/abs/2608.05901\">Link</a>]",
+          "A Computational Framework for Decision-Aligned Conditional Betas in Cost-Aware Portfolio Optimization, 2026, Dongwan Shin*, Hojin Ko, Jeonggyu Huh*",
+          "Neural Policy Iteration for Dynamic Portfolio Choice with Control-Dependent Diffusion, 2026, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*",
+          "Amortized Feedback Planning: Turning Model-Based Rollouts into Executable Policies, 2026, Jeonggyu Huh* [<a href=\"https://arxiv.org/abs/2609.35012\">Link</a>]"
         ]
       }
     ]
