@@ -151,7 +151,7 @@ def build_profiles():
         body+='</div></div>'
         write(slug,name,body,'people')
 def build_articles():
-    groups={'research':'research','bptt-costate':'research','publications':'publications','work-in-progress':'publications','talks':'people','teaching':'people','projects':'projects'}
+    groups={'research':'research','bptt-costate':'research','publications':'publications','work-in-progress':'publications','arxiv':'publications','talks':'people','teaching':'people','projects':'projects'}
     for slug,active in groups.items():
         p=pages[slug]
         relations={'research':[('research','Overview'),('bptt-costate','Why BPTT ≈ Costate?')],'publications':[('publications','Publications'),('work-in-progress','Work in progress')],'people':[('jeonggyu-huh','Principal investigator'),('talks','Talks'),('teaching','Teaching')]}
