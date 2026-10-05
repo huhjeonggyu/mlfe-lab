@@ -13,6 +13,7 @@
         "type": "list",
         "ordered": false,
         "items": [
+          "Policy Accuracy Beyond Value Stability: Direct Conditional Correction in Mean-Field Control",
           "Finite Horizon and Optimal Portfolio Choice with Stochastic Income: A Reinforcement Learning Approach, with Seyoung Park, Hojin Ko, Alain Bensoussan",
           "Deep Hedging through Bellman-Guided Direct Policy Optimization, with Seungho Na, Hojin Ko",
           "Scalable Distributionally Robust Portfolio Choice via Pontryagin-Guided Direct Policy Optimization, with Ho-Jun Lee",
