@@ -13,7 +13,7 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "Policy Accuracy Beyond Value Stability: Direct Conditional Correction in Mean-Field Control, with Jaegi Jeon",
+          "Active-Set Recovery and Policy Refinement in Constrained Mean-Field Control, with Jaegi Jeon",
           "How Far Can Analytical Portfolio Rules Take Us? Learning and Refining Consumption and Investment, Jeonggyu Huh, Jaegi Jeon, Hyeng Keun Koo, Byung Hwa Lim, 2026",
           "Finite Horizon and Optimal Portfolio Choice with Stochastic Income: A Reinforcement Learning Approach, with Seyoung Park, Hojin Ko, Alain Bensoussan",
           "Deep Hedging through Bellman-Guided Direct Policy Optimization, with Seungho Na, Hojin Ko",
