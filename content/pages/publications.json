@@ -46,7 +46,7 @@
           "Self-Consistent Adjoint Policy Iteration for Constrained Dynamic Portfolio Choice, Jeonggyu Huh*, Yeoneung Kim, Seungwon Jeong [<a href=\"https://arxiv.org/abs/2608.17808\">Link</a>]",
           "Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control, Hojin Ko*, Jeonggyu Huh* [<a href=\"https://drive.google.com/file/d/1JxF_NBrw404u5XNbV15P6GC9GCauPJny/view?usp=sharing\">Slide</a>]",
           "Differentiating Through Delay: Stochastic Control Without Full History Hessians, Seungwon Jeong*, Jihun Kim*, Jeonggyu Huh*",
-          "Neural Policy Iteration for Dynamic Portfolio Choice with Control-Dependent Diffusion, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*",
+          "Neural policy iteration for non-homothetic portfolio optimization: residual accuracy and policy performance, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*",
           "Computable Welfare Bounds for Constrained Dynamic Portfolio Choice, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*"
         ]
       },
