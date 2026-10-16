@@ -14,6 +14,21 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "2027"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "[invited talk] The Hidden Hedge in Myopic Investing: What the Value of Not Hedging Reveals, Winter Workshop on Operations Research, Finance and Mathematics, 2027 ** scheduled",
+          "[invited talk] The Hidden Hedge in Myopic Investing: What the Value of Not Hedging Reveals, Ryukyus–TMU Joint International Workshop on Quantitative Finance, 2027 ** scheduled"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
         "text": "2026",
         "html": "<a href=\"https://sites.google.com/view/jeonggyuhuh/#h.c0aht7g3wy4s\"></a>2026"
       },
@@ -22,7 +37,7 @@
         "ordered": false,
         "items": [
           "[special session] Self-Consistent Adjoint Policy Iteration for Constrained Dynamic Portfolio Choice, Korean Mathematical Society (KMS), Fall 2026 ** scheduled",
-          "[contributed talk] Learning and Refining Portfolio Policies: Analytical Benchmarks, Constraints, and Decision Accuracy, Korean Association of Financial Engineering (KAFE), Fall 2026 ** scheduled",
+          "[contributed talk] The Hidden Hedge in Myopic Investing: What the Value of Not Hedging Reveals, Korean Association of Financial Engineering (KAFE), Fall 2026 ** scheduled",
           "[contributed talk] Recovering No-Trade Regions: Pontryagin-Guided Policy Projection for Transaction-Cost Control, Korean Academic Society of Business Administration (KASBA), 2026",
           "[invited talk] Recovering No-Trade Regions: Pontryagin-Guided Policy Projection for Transaction-Cost Control, International Conference on Econometrics and Statistics (EcoSta), 2026",
           "[invited talk] Recovering No-Trade Regions: Pontryagin-Guided Policy Projection for Transaction-Cost Control,  Asian Quantitative Finance Conference (AQFC), 2026",
