@@ -42,7 +42,7 @@
       {
         "type": "paragraph",
         "text": "Hojin Ko — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.",
-        "html": "<span class=\"muted\"><strong>Hojin Ko</strong> — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.</span>"
+        "html": "<span class=\"muted\">Hojin Ko — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.</span>"
       }
     ],
     [
@@ -54,7 +54,7 @@
       {
         "type": "paragraph",
         "text": "Yoonyoung Byun — DeepONet Pricing of Autocallable ELS with Martingale-Controlled Error Screening.",
-        "html": "<span class=\"muted\"><strong>Yoonyoung Byun</strong> — DeepONet Pricing of Autocallable ELS with Martingale-Controlled Error Screening.</span>"
+        "html": "<span class=\"muted\">Yoonyoung Byun — DeepONet Pricing of Autocallable ELS with Martingale-Controlled Error Screening.</span>"
       }
     ],
     [
@@ -66,7 +66,7 @@
       {
         "type": "paragraph",
         "text": "Dongwan Shin — Discounted Alpha: A Machine Learning Framework for Equity Valuation.",
-        "html": "<span class=\"muted\"><strong>Dongwan Shin</strong> — Discounted Alpha: A Machine Learning Framework for Equity Valuation.</span>"
+        "html": "<span class=\"muted\">Dongwan Shin — Discounted Alpha: A Machine Learning Framework for Equity Valuation.</span>"
       }
     ],
     [
@@ -78,16 +78,15 @@
       {
         "type": "paragraph",
         "text": "Seungho Na — Deep Hedging through Bellman-Guided Direct Policy Optimization.",
-        "html": "<span class=\"muted\"><strong>Seungho Na</strong> — Deep Hedging through Bellman-Guided Direct Policy Optimization.</span>"
+        "html": "<span class=\"muted\">Seungho Na — Deep Hedging through Bellman-Guided Direct Policy Optimization.</span>"
       }
     ],
     [
       {
         "type": "paragraph",
         "text": "Read the separate story about Hojin Ko's Outstanding Poster Award.",
-        "html": "Read the separate story about <a href=\"news-hojin-ko-kms-poster-award-2026.html\"><strong>Hojin Ko</strong>'s Outstanding Poster Award</a>."
+        "html": "Read the separate story about <a href=\"news-hojin-ko-kms-poster-award-2026.html\">Hojin Ko's Outstanding Poster Award</a>."
       }
     ]
-  ],
-  "bold_member_names": true
+  ]
 }

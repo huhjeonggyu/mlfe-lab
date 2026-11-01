@@ -2,15 +2,12 @@
   "id": "hojin-ko-kms-poster-award-2026",
   "date": "2026-11-01",
   "title": "Hojin Ko Wins Outstanding Poster Award at KMS 2026",
-  "title_html": "<strong>Hojin Ko</strong> Wins Outstanding Poster Award at KMS 2026",
   "category": "Award",
   "members": [
     "hojin-ko"
   ],
   "source": "https://krims.kangwon.ac.kr/krims/conference.do?article.offset=0&articleLimit=10&articleNo=572267&mode=view",
   "subtitle": "Hojin Ko recognized for his poster on latent no-action region recovery in neural control.",
-  "subtitle_html": "<strong>Hojin Ko</strong> recognized for his poster on latent no-action region recovery in neural control.",
-  "bold_member_names": true,
   "sections": [
     [
       {
@@ -21,7 +18,7 @@
       {
         "type": "paragraph",
         "text": "Hojin also gave a presentation on his award-winning poster. Congratulations to Hojin on this achievement! 👏",
-        "html": "<strong>Hojin</strong> also gave a presentation on his award-winning poster. Congratulations to <strong>Hojin</strong> on this achievement! 👏"
+        "html": "Hojin also gave a presentation on his award-winning poster. Congratulations to Hojin on this achievement! 👏"
       }
     ],
     [
@@ -33,7 +30,7 @@
       {
         "type": "paragraph",
         "text": "Hojin Ko presenting his award-winning poster, Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.",
-        "html": "<span class=\"muted\"><strong>Hojin Ko</strong> presenting his award-winning poster, Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.</span>"
+        "html": "<span class=\"muted\">Hojin Ko presenting his award-winning poster, Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.</span>"
       }
     ],
     [
@@ -45,7 +42,7 @@
       {
         "type": "paragraph",
         "text": "Hojin Ko — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control. Outstanding Poster Award.",
-        "html": "<span class=\"muted\"><strong>Hojin Ko</strong> — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control. Outstanding Poster Award.</span>"
+        "html": "<span class=\"muted\">Hojin Ko — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control. Outstanding Poster Award.</span>"
       }
     ],
     [
