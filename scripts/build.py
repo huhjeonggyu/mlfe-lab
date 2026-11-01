@@ -92,15 +92,15 @@ def render_sections(sections,context='',skip_title=True):
         if skip_title and i==0 and all(b['type']=='heading' for b in bb): continue
         out.append('<section class="prose-section">'+''.join(render_block(b,context) for b in bb)+'</section>')
     return ''.join(out)
-def page_top(kicker,title,subtitle='',crumb=''):
-    return f'<div class="page-top container">{crumb}<p class="eyebrow">{e(kicker)}</p><h1>{e(title)}</h1>'+ (f'<p class="page-subtitle">{e(subtitle)}</p>' if subtitle else '')+'</div>'
+def page_top(kicker,title,subtitle='',crumb='',subtitle_html=''):
+    return f'<div class="page-top container">{crumb}<p class="eyebrow">{e(kicker)}</p><h1>{e(title)}</h1>'+ (f'<p class="page-subtitle">{subtitle_html or e(subtitle)}</p>' if subtitle else '')+'</div>'
 def display_date(n):
     start=n['date'].replace('-','.')
     return start+' – '+n['end_date'].replace('-','.') if n.get('end_date') else start
 def news_card(n):
     pic=next((b['src'] for sec in n['sections'] for b in sec if b['type']=='image'),'')
     visual=image(pic,n['title']) if pic else '<div class="news-type">AQFC<span>2026</span></div>'
-    return f'<article class="news-card"><a class="news-photo" href="news-{n["id"]}.html">{visual}</a><div class="news-meta"><time datetime="{n["date"]}">{display_date(n)}</time><span>{e(n["category"])}</span></div><h3><a href="news-{n["id"]}.html">{e(n["title"])}</a></h3><p>{e(n.get("subtitle",""))}</p></article>'
+    return f'<article class="news-card"><a class="news-photo" href="news-{n["id"]}.html">{visual}</a><div class="news-meta"><time datetime="{n["date"]}">{display_date(n)}</time><span>{e(n["category"])}</span></div><h3><a href="news-{n["id"]}.html">{e(n["title"])}</a></h3><p>{n.get("subtitle_html") or e(n.get("subtitle",""))}</p></article>'
 def home():
     site=load('content/site.json')
     intro=[site['introduction_en'],site['introduction_ko']]
@@ -179,10 +179,10 @@ def build_news():
     body+='<div class="container news-archive"><div class="news-grid">'+''.join(news_card(n) for n in news)+'</div></div>'
     write('news','News',body)
     for n in news:
-        body=page_top(n['category'],n['title'],n.get('subtitle',''))
+        body=page_top(n['category'],n['title'],n.get('subtitle',''),subtitle_html=n.get('subtitle_html',''))
         body+='<article class="container prose news-detail"><time class="article-date" datetime="'+n['date']+'">'+display_date(n)+'</time>'+render_sections(n['sections'],n['title'],False)
         members=[p for p in people if p['id'] in n.get('members',[])]
-        if members: body+='<div class="related-people"><h2>People</h2>'+''.join('<a href="'+route_person(p)+'">'+e(p['name'])+' ↗</a>' for p in members)+'</div>'
+        if members: body+='<div class="related-people"><h2>People</h2>'+''.join('<a href="'+route_person(p)+'">'+('<strong>'+e(p['name'])+'</strong>' if n.get('bold_member_names') else e(p['name']))+' ↗</a>' for p in members)+'</div>'
         body+='</article>'
         write('news-'+n['id'],n['title'],body,'news')
 def build_contact():

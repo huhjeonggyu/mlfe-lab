@@ -18,12 +18,12 @@
       {
         "type": "paragraph",
         "text": "MLFE Lab participated in the 2026 Korean Mathematical Society (KMS) Fall Meeting, held at Gwangju Institute of Science and Technology (GIST) from October 29 to 31. Jeonggyu Huh gave a special-session talk, and Hojin Ko, Yoonyoung Byun, Dongwan Shin, and Seungho Na presented posters.",
-        "html": "MLFE Lab participated in the 2026 Korean Mathematical Society (KMS) Fall Meeting, held at Gwangju Institute of Science and Technology (GIST) from October 29 to 31. Jeonggyu Huh gave a special-session talk, and Hojin Ko, Yoonyoung Byun, Dongwan Shin, and Seungho Na presented posters."
+        "html": "MLFE Lab participated in the 2026 Korean Mathematical Society (KMS) Fall Meeting, held at Gwangju Institute of Science and Technology (GIST) from October 29 to 31. <strong>Jeonggyu Huh</strong> gave a special-session talk, and <strong>Hojin Ko</strong>, <strong>Yoonyoung Byun</strong>, <strong>Dongwan Shin</strong>, and <strong>Seungho Na</strong> presented posters."
       },
       {
         "type": "paragraph",
-        "text": "Hojin Ko received an Outstanding Poster Award for “Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control” and gave a presentation on his award-winning poster. Congratulations to Hojin and to all our student presenters!",
-        "html": "Hojin Ko received an Outstanding Poster Award for “Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control” and gave a presentation on his award-winning poster. Congratulations to Hojin and to all our student presenters!"
+        "text": "Hojin Ko received an Outstanding Poster Award for “Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control” and gave a presentation on his award-winning poster. Congratulations to Hojin and to all our student presenters! 👏",
+        "html": "<strong>Hojin Ko</strong> received an Outstanding Poster Award for “Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control” and gave a presentation on his award-winning poster. Congratulations to <strong>Hojin</strong> and to all our student presenters! 👏"
       }
     ],
     [
@@ -47,7 +47,7 @@
       {
         "type": "paragraph",
         "text": "Hojin Ko presenting his award-winning poster, Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.",
-        "html": "<span class=\"muted\">Hojin Ko presenting his award-winning poster, Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.</span>"
+        "html": "<span class=\"muted\"><strong>Hojin Ko</strong> presenting his award-winning poster, Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.</span>"
       }
     ],
     [
@@ -59,7 +59,7 @@
       {
         "type": "paragraph",
         "text": "Hojin Ko — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control. Outstanding Poster Award.",
-        "html": "<span class=\"muted\">Hojin Ko — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control. Outstanding Poster Award.</span>"
+        "html": "<span class=\"muted\"><strong>Hojin Ko</strong> — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control. Outstanding Poster Award.</span>"
       }
     ],
     [
@@ -71,7 +71,7 @@
       {
         "type": "paragraph",
         "text": "Yoonyoung Byun — DeepONet Pricing of Autocallable ELS with Martingale-Controlled Error Screening.",
-        "html": "<span class=\"muted\">Yoonyoung Byun — DeepONet Pricing of Autocallable ELS with Martingale-Controlled Error Screening.</span>"
+        "html": "<span class=\"muted\"><strong>Yoonyoung Byun</strong> — DeepONet Pricing of Autocallable ELS with Martingale-Controlled Error Screening.</span>"
       }
     ],
     [
@@ -83,7 +83,7 @@
       {
         "type": "paragraph",
         "text": "Dongwan Shin — Discounted Alpha: A Machine Learning Framework for Equity Valuation.",
-        "html": "<span class=\"muted\">Dongwan Shin — Discounted Alpha: A Machine Learning Framework for Equity Valuation.</span>"
+        "html": "<span class=\"muted\"><strong>Dongwan Shin</strong> — Discounted Alpha: A Machine Learning Framework for Equity Valuation.</span>"
       }
     ],
     [
@@ -95,8 +95,10 @@
       {
         "type": "paragraph",
         "text": "Seungho Na — Deep Hedging through Bellman-Guided Direct Policy Optimization.",
-        "html": "<span class=\"muted\">Seungho Na — Deep Hedging through Bellman-Guided Direct Policy Optimization.</span>"
+        "html": "<span class=\"muted\"><strong>Seungho Na</strong> — Deep Hedging through Bellman-Guided Direct Policy Optimization.</span>"
       }
     ]
-  ]
+  ],
+  "subtitle_html": "Four student posters, a special-session talk, and <strong>Hojin Ko</strong>&#x27;s Outstanding Poster Award.",
+  "bold_member_names": true
 }
