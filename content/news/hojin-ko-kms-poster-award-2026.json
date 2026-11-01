@@ -1,0 +1,59 @@
+{
+  "id": "hojin-ko-kms-poster-award-2026",
+  "date": "2026-11-01",
+  "title": "Hojin Ko Wins Outstanding Poster Award at KMS 2026",
+  "title_html": "<strong>Hojin Ko</strong> Wins Outstanding Poster Award at KMS 2026",
+  "category": "Award",
+  "members": [
+    "hojin-ko"
+  ],
+  "source": "https://krims.kangwon.ac.kr/krims/conference.do?article.offset=0&articleLimit=10&articleNo=572267&mode=view",
+  "subtitle": "Hojin Ko recognized for his poster on latent no-action region recovery in neural control.",
+  "subtitle_html": "<strong>Hojin Ko</strong> recognized for his poster on latent no-action region recovery in neural control.",
+  "bold_member_names": true,
+  "sections": [
+    [
+      {
+        "type": "paragraph",
+        "text": "Hojin Ko received an Outstanding Poster Award at the 2026 Korean Mathematical Society (KMS) Fall Meeting, held at Gwangju Institute of Science and Technology (GIST) from October 29 to 31. His award-winning poster was titled “Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.”",
+        "html": "<strong>Hojin Ko</strong> received an Outstanding Poster Award at the 2026 Korean Mathematical Society (KMS) Fall Meeting, held at Gwangju Institute of Science and Technology (GIST) from October 29 to 31. His award-winning poster was titled “Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hojin also gave a presentation on his award-winning poster. Congratulations to Hojin on this achievement! 👏",
+        "html": "<strong>Hojin</strong> also gave a presentation on his award-winning poster. Congratulations to <strong>Hojin</strong> on this achievement! 👏"
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/kms-fall-2026-hojin-award-talk.jpg",
+        "alt": "Hojin Ko presenting his award-winning poster at the KMS Fall Meeting"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hojin Ko presenting his award-winning poster, Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.",
+        "html": "<span class=\"muted\"><strong>Hojin Ko</strong> presenting his award-winning poster, Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control.</span>"
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/kms-fall-2026-hojin-ko-poster.jpg",
+        "alt": "Hojin Ko in front of his poster with an Outstanding Poster Award ribbon"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hojin Ko — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control. Outstanding Poster Award.",
+        "html": "<span class=\"muted\"><strong>Hojin Ko</strong> — Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control. Outstanding Poster Award.</span>"
+      }
+    ],
+    [
+      {
+        "type": "paragraph",
+        "text": "See all MLFE Lab presentations at the KMS Fall Meeting 2026.",
+        "html": "See <a href=\"news-kms-fall-2026.html\">all MLFE Lab presentations at the KMS Fall Meeting 2026</a>."
+      }
+    ]
+  ]
+}
