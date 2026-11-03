@@ -1,6 +1,6 @@
 {
   "title": "Research",
-  "subtitle": "Stochastic control through pathwise differentiation and local recovery.",
+  "subtitle": "Learning-based stochastic control and structure-guided decision recovery.",
   "source": "https://sites.google.com/view/jeonggyuhuh/research-pg-dpo",
   "math": true,
   "sections": [
@@ -14,7 +14,7 @@
     [
       {
         "type": "html",
-        "html": "<div class=\"research-intro\"><p class=\"research-statement\">Pathwise derivatives.<br>Local control recovery.</p><p>We study stochastic control in financial mathematics, with a central focus on <strong>local recovery using pathwise derivatives</strong>. We ask how information obtained from simulated trajectories can determine a control at a given time and state, and how these recovery steps can be organized into policy-update operators.</p><p>Our research spans regular control, delay, transaction costs, partial observation, and deep hedging. Across these problems, we investigate where the recovery principle applies, where it reaches its limits, and what modifications make further extensions possible.</p></div>"
+        "html": "<div class=\"research-intro\"><p class=\"research-statement\">Learn policies.<br>Refine decisions.</p><p>We develop learning-based methods for sequential decision-making in financial mathematics, combining <strong>reinforcement learning and neural policy learning</strong> with the mathematical structure of stochastic control. Our central focus is <strong>structure-guided local recovery</strong>: refining decisions made by learned policies under complex dynamics and constraints.</p><p>Pathwise differentiation is a principal information-extraction method in our current work. Together with optimality conditions, it supplies local information for action refinement. The broader program asks what information recovery requires and how other estimation or model-learning approaches could support it.</p><p>We investigate when recovery steps improve policy performance and decision accuracy, how they can be organized into iterative updates, and how the framework extends to path dependence, transaction costs, partial observation, and deep hedging.</p><p>Alongside this core program, we study financial machine learning for derivatives pricing, volatility forecasting, and generative modeling.</p></div>"
       }
     ],
     [
@@ -25,7 +25,7 @@
       },
       {
         "type": "paragraph",
-        "html": "A common starting point is to simulate trajectories under a candidate policy and differentiate the relevant path functional. The resulting information enters a local control problem: maximize the appropriate Hamiltonian over admissible controls."
+        "html": "A learned or candidate policy is a starting point for refining the decision at a given time and state. In our current pathwise approach, we simulate trajectories and differentiate the relevant path functional. The resulting information enters a local control problem: maximize the appropriate Hamiltonian over admissible controls."
       },
       {
         "type": "html",
@@ -44,7 +44,7 @@
       {
         "type": "heading",
         "level": 2,
-        "text": "Two derivative routes"
+        "text": "Two pathwise derivative routes"
       },
       {
         "type": "html",
@@ -95,6 +95,10 @@
       {
         "type": "paragraph",
         "html": "The breadth of our research comes from testing a common principle against different control structures. When direct recovery is insufficient, we ask what additional state, information, optimality conditions, or update mechanisms are needed."
+      },
+      {
+        "type": "paragraph",
+        "html": "A broader question is whether filtering, learned models, or critic-based estimators can supply the information needed for recovery. These possibilities require their own error and policy-improvement analysis."
       },
       {
         "type": "html",
