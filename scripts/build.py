@@ -71,8 +71,9 @@ def shell(slug,title,body,active=None):
 def write(slug,title,body,active=None):
     generated.add(slug+'.html')
     (OUT/(slug+'.html')).write_text(shell(slug,title,body,active),encoding='utf-8')
-def image(src,alt,cls='',loading='lazy'):
-    return f'<img src="{e(src)}" alt="{e(alt)}" class="{cls}" loading="{loading}" decoding="async">'
+def image(src,alt,cls='',loading='lazy',position=''):
+    style=f' style="object-position: {e(position)}"' if position else ''
+    return f'<img src="{e(src)}" alt="{e(alt)}" class="{cls}"{style} loading="{loading}" decoding="async">'
 def render_block(b,context=''):
     t=b['type']
     if t=='heading':
@@ -99,7 +100,7 @@ def display_date(n):
     return start+' – '+n['end_date'].replace('-','.') if n.get('end_date') else start
 def news_card(n):
     pic=next((b['src'] for sec in n['sections'] for b in sec if b['type']=='image'),'')
-    visual=image(pic,n['title']) if pic else '<div class="news-type">AQFC<span>2026</span></div>'
+    visual=image(pic,n['title'],position=n.get('thumbnail_position','')) if pic else '<div class="news-type">AQFC<span>2026</span></div>'
     return f'<article class="news-card"><a class="news-photo" href="news-{n["id"]}.html">{visual}</a><div class="news-meta"><time datetime="{n["date"]}">{display_date(n)}</time><span>{e(n["category"])}</span></div><h3><a href="news-{n["id"]}.html">{e(n["title"])}</a></h3><p>{n.get("subtitle_html") or e(n.get("subtitle",""))}</p></article>'
 def home():
     site=load('content/site.json')

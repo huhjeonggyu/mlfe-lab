@@ -1,0 +1,49 @@
+{
+  "id": "ksiam-fall-2026",
+  "date": "2026-11-05",
+  "end_date": "2026-11-08",
+  "title": "KSIAM Fall Conference 2026",
+  "category": "Conference",
+  "thumbnail_position": "50% 20%",
+  "members": [
+    "seungho-na",
+    "yoonyoung-byun",
+    "hojin-ko",
+    "dongwan-shin"
+  ],
+  "source": "https://ksiam.org/conference/conference01_1.asp?AC=0",
+  "subtitle": "Four student poster presentations in Jeju.",
+  "sections": [
+    [
+      {
+        "type": "paragraph",
+        "text": "MLFE Lab participated in the 2026 Korean Society for Industrial and Applied Mathematics (KSIAM) Annual Meeting, held at Jeju Convention Center from November 5 to 8. Seungho Na, Yoonyoung Byun, Hojin Ko, and Dongwan Shin presented their research in the poster sessions.",
+        "html": "MLFE Lab participated in the 2026 Korean Society for Industrial and Applied Mathematics (KSIAM) Annual Meeting, held at Jeju Convention Center from November 5 to 8. <strong>Seungho Na</strong>, <strong>Yoonyoung Byun</strong>, <strong>Hojin Ko</strong>, and <strong>Dongwan Shin</strong> presented their research in the poster sessions."
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/ksiam-fall-2026-seungho-na-poster.jpg",
+        "alt": "Seungho Na with Jeonggyu Huh in front of the poster at the 2026 KSIAM Annual Meeting"
+      },
+      {
+        "type": "paragraph",
+        "text": "Seungho Na — Deep Hedging through Bellman-Guided Direct Policy Optimization.",
+        "html": "<span class=\"muted\">Seungho Na — Deep Hedging through Bellman-Guided Direct Policy Optimization.</span>"
+      }
+    ],
+    [
+      {
+        "type": "image",
+        "src": "assets/images/ksiam-fall-2026-yoonyoung-byun-poster.jpg",
+        "alt": "Yoonyoung Byun with Jeonggyu Huh in front of the poster at the 2026 KSIAM Annual Meeting"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yoonyoung Byun — DeepONet Pricing of Autocallable ELS with Martingale-Controlled Error Screening.",
+        "html": "<span class=\"muted\">Yoonyoung Byun — DeepONet Pricing of Autocallable ELS with Martingale-Controlled Error Screening.</span>"
+      }
+    ]
+  ]
+}
