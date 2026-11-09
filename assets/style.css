@@ -32,7 +32,7 @@
 
 /* PI directory card and profile portrait. */
 #faculty .people-grid{grid-template-columns:minmax(0,1fr)}
-#faculty .person-card{display:grid;grid-template-columns:135px minmax(0,1fr);gap:24px;align-items:center;max-width:560px;margin:0;padding-bottom:24px;border-bottom:1px solid var(--line)}
+#faculty .person-card{display:grid;grid-template-columns:135px minmax(0,1fr);gap:24px;align-items:start;max-width:560px;margin:0;padding-bottom:24px;border-bottom:1px solid var(--line)}
 #faculty .portrait{width:135px;margin:0}
 #faculty .person-summary{min-width:0}
 #faculty h3{line-height:1.35;margin-bottom:6px}

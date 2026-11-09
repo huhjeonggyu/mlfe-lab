@@ -1,10 +1,12 @@
 """Build the lab website. Python 3.10+, standard library only."""
 from pathlib import Path
 from html import escape
-import json, re, shutil
+import json, re, shutil, hashlib
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'docs'
 OUT.mkdir(exist_ok=True)
+# Refresh cached styles whenever their content changes, consistently across platforms.
+STYLE_VERSION=hashlib.sha256((ROOT/'assets/style.css').read_text(encoding='utf-8-sig').encode('utf-8')).hexdigest()[:12]
 generated=set()
 def load(p): return json.loads((ROOT/p).read_text(encoding='utf-8-sig'))
 def e(s): return escape(str(s),quote=True)
@@ -59,7 +61,7 @@ def shell(slug,title,body,active=None):
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8">{analytics_tag()}<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)} · SKKU MLFE Lab</title><meta name="description" content="Machine Learning & Financial Engineering at Sungkyunkwan University. Research, people, publications and news from the MLFE Lab.">
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css?v={STYLE_VERSION}">
 <script src="assets/site.js" defer></script>{page_assets(slug)}</head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="container header-inner"><a class="brand" href="index.html" aria-label="SKKU MLFE Lab home"><span class="brand-mark">M<span>↗</span></span><span><strong>MLFE<span class="brand-lab"> LAB</span></strong><small>SUNGKYUNKWAN UNIVERSITY</small></span></a>
