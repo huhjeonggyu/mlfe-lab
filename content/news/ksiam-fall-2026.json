@@ -19,6 +19,11 @@
         "type": "paragraph",
         "text": "MLFE Lab participated in the 2026 Korean Society for Industrial and Applied Mathematics (KSIAM) Annual Meeting, held at Jeju Convention Center from November 5 to 8. Seungho Na, Yoonyoung Byun, Hojin Ko, and Dongwan Shin presented their research in the poster sessions.",
         "html": "MLFE Lab participated in the 2026 Korean Society for Industrial and Applied Mathematics (KSIAM) Annual Meeting, held at Jeju Convention Center from November 5 to 8. <strong>Seungho Na</strong>, <strong>Yoonyoung Byun</strong>, <strong>Hojin Ko</strong>, and <strong>Dongwan Shin</strong> presented their research in the poster sessions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Hojin Ko presented “Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control,” and Dongwan Shin presented “Discounted Alpha: A Machine Learning Framework for Equity Valuation.”",
+        "html": "Hojin Ko presented “<em>Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control</em>,” and Dongwan Shin presented “<em>Discounted Alpha: A Machine Learning Framework for Equity Valuation</em>.”"
       }
     ],
     [
