@@ -22,8 +22,8 @@
       },
       {
         "type": "paragraph",
-        "text": "Hojin Ko presented “Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control,” and Dongwan Shin presented “Discounted Alpha: A Machine Learning Framework for Equity Valuation.”",
-        "html": "Hojin Ko presented “<em>Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control</em>,” and Dongwan Shin presented “<em>Discounted Alpha: A Machine Learning Framework for Equity Valuation</em>.”"
+        "text": "Hojin Ko presented “Knowing When Not to Trade: Latent No-Trade Region Recovery Hidden in Neural Control,” and Dongwan Shin presented “Discounted Alpha: A Machine Learning Framework for Equity Valuation.”",
+        "html": "Hojin Ko presented “<em>Knowing When Not to Trade: Latent No-Trade Region Recovery Hidden in Neural Control</em>,” and Dongwan Shin presented “<em>Discounted Alpha: A Machine Learning Framework for Equity Valuation</em>.”"
       }
     ],
     [
@@ -48,6 +48,13 @@
         "type": "paragraph",
         "text": "Yoonyoung Byun — DeepONet Pricing of Autocallable ELS with Martingale-Controlled Error Screening.",
         "html": "<span class=\"muted\">Yoonyoung Byun — DeepONet Pricing of Autocallable ELS with Martingale-Controlled Error Screening.</span>"
+      }
+    ],
+    [
+      {
+        "type": "paragraph",
+        "text": "Read the separate story about Hojin Ko's Outstanding Poster Award.",
+        "html": "Read the separate story about <a href=\"news-hojin-ko-ksiam-poster-award-2026.html\">Hojin Ko's Outstanding Poster Award</a>."
       }
     ]
   ]
