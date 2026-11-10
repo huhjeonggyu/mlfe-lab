@@ -38,7 +38,7 @@
 #faculty h3{line-height:1.35;margin-bottom:6px}
 #faculty .person-program{margin:0}
 .profile-pi .profile-header{display:block;margin-bottom:24px}
-.profile-pi .profile-photo{width:100%;max-width:none;margin:0 0 18px}
+.profile-pi .profile-photo{width:200px;max-width:100%;margin:0 0 18px}
 .profile-pi .profile-identity{min-width:0}
 .profile-pi .profile-identity .eyebrow{font-size:.6rem;letter-spacing:.08em;margin-bottom:9px}
 .profile-pi .profile-identity h1{font-size:1.5rem;line-height:1.2;margin-bottom:10px}
