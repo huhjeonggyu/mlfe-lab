@@ -28,6 +28,16 @@
     ]
   },
   {
+    "id": "de3ec8694113",
+    "section": "Submitted",
+    "category": "",
+    "html": "Neural policy iteration for non-homothetic portfolio optimization: residual accuracy and policy performance, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*, under revision in Communications in Nonlinear Science and Numerical Simulation",
+    "members": [
+      "jeonggyu-huh",
+      "seungwon-jeong"
+    ]
+  },
+  {
     "id": "4e51ef09921e",
     "section": "Submitted",
     "category": "",
@@ -52,16 +62,6 @@
     "section": "Submitted",
     "category": "",
     "html": "Differentiating Through Delay: Stochastic Control Without Full History Hessians, Seungwon Jeong*, Jihun Kim*, Jeonggyu Huh*",
-    "members": [
-      "jeonggyu-huh",
-      "seungwon-jeong"
-    ]
-  },
-  {
-    "id": "de3ec8694113",
-    "section": "Submitted",
-    "category": "",
-    "html": "Neural policy iteration for non-homothetic portfolio optimization: residual accuracy and policy performance, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*",
     "members": [
       "jeonggyu-huh",
       "seungwon-jeong"
