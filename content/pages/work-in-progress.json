@@ -13,14 +13,14 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "Policy Refinement and Active-Set Recovery in Constrained Mean-Field Control",
-          "Learning Investment Policies, Correcting Current Decisions, Jeonggyu Huh, Jaegi Jeon, Hyeng Keun Koo, Byung Hwa Lim",
+          "High-Dimensional Portfolio Optimization with Transaction Costs via Neural Continuation Gradients, with Hojin Ko [<a href=\"https://drive.google.com/file/d/1JxF_NBrw404u5XNbV15P6GC9GCauPJny/view?usp=sharing\">Slide</a>]",
+          "Learning Investment Policies, Correcting Current Decisions, with Jaegi Jeon, Hyeng Keun Koo, Byung Hwa Lim",
           "Deep Hedging through Bellman-Guided Direct Policy Optimization, with Seungho Na, Hojin Ko",
           "Scalable Distributionally Robust Portfolio Choice via Pontryagin-Guided Direct Policy Optimization, with Ho-Jun Lee",
           "Real-Time Pricing of Equity-Linked Securities Using Deep Operator Networks, with Yoonyoung Byun, Jae Wook Song, Juhwan Kim",
           "Discounted Alpha: A Machine Learning Framework for Equity Valuation, with Dongwan Shin, Thummim Cho",
-          "A Computational Framework for Decision-Aligned Conditional Betas in Cost-Aware Portfolio Optimization, Dongwan Shin*, Hojin Ko, Jeonggyu Huh*, Seungwon Jeong",
-          "Optimal Consumption and Investment with Stochastic Income and Transaction Costs, Jeonggyu Huh*, Seyoung Park, Tae Ung Gang"
+          "A Computational Framework for Decision-Aligned Conditional Betas in Cost-Aware Portfolio Optimization, with Dongwan Shin, Hojin Ko, Seungwon Jeong",
+          "Optimal Consumption and Investment with Stochastic Income and Transaction Costs, with Seyoung Park, Tae Ung Gang"
         ]
       }
     ],

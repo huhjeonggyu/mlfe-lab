@@ -35,7 +35,7 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "Knowing When Not to Act: Latent No-Action Region Recovery Hidden in Neural Control, submitted",
+          "High-Dimensional Portfolio Optimization with Transaction Costs via Neural Continuation Gradients",
           "Sobolev-Stable Regime-Conditioned DeepONet for Monthly Implied-Volatility Surface Forecasting,  submitted",
           "Finite-Horizon Portfolio Choice with Stochastic Income: From Analytical Approximation to Reinforcement Learning, submitted [<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7606878\">Link</a>]",
           "Deep Hedging through Bellman-Guided Direct Policy Optimization",
