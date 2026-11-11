@@ -13,6 +13,21 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "Papers",
+        "html": "Papers"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Sobolev-Stable Regime-Conditioned DeepONet for Monthly Implied-Volatility Surface Forecasting,  submitted"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Papers in Progress",
         "html": "Papers in Progress"
       },
@@ -20,7 +35,6 @@
         "type": "list",
         "ordered": false,
         "items": [
-          "Sobolev-Stable Regime-Conditioned DeepONet for Monthly Implied-Volatility Surface Forecasting,  submitted",
           "Scalable Distributionally Robust Portfolio Choice via Pontryagin-Guided Direct Policy Optimization"
         ]
       }
