@@ -38,6 +38,26 @@
     ]
   },
   {
+    "id": "497a3f83134f",
+    "section": "Submitted",
+    "category": "",
+    "html": "Forecast Origins and Information Value in Cross-Market Volatility Forecasting, Jaegi Jeon*, Jeonggyu Huh, Seungwon Jeong*, under revision in AIMS Mathematics",
+    "members": [
+      "jeonggyu-huh",
+      "seungwon-jeong"
+    ]
+  },
+  {
+    "id": "fbc177a63894",
+    "section": "Submitted",
+    "category": "",
+    "html": "Differentiating Through Delay: Stochastic Control Without Full History Hessians, Seungwon Jeong*, Jihun Kim, Jeonggyu Huh",
+    "members": [
+      "jeonggyu-huh",
+      "seungwon-jeong"
+    ]
+  },
+  {
     "id": "4e51ef09921e",
     "section": "Submitted",
     "category": "",
@@ -52,16 +72,6 @@
     "section": "Submitted",
     "category": "",
     "html": "Self-Consistent Adjoint Policy Iteration for Constrained Dynamic Portfolio Choice, Jeonggyu Huh*, Yeoneung Kim, Seungwon Jeong [<a href=\"https://arxiv.org/abs/2608.17808\">Link</a>]",
-    "members": [
-      "jeonggyu-huh",
-      "seungwon-jeong"
-    ]
-  },
-  {
-    "id": "fbc177a63894",
-    "section": "Submitted",
-    "category": "",
-    "html": "Differentiating Through Delay: Stochastic Control Without Full History Hessians, Seungwon Jeong*, Jihun Kim*, Jeonggyu Huh*",
     "members": [
       "jeonggyu-huh",
       "seungwon-jeong"
@@ -87,16 +97,6 @@
       "hojin-ko",
       "ho-jun-lee",
       "wonwoo-choi"
-    ]
-  },
-  {
-    "id": "497a3f83134f",
-    "section": "Submitted",
-    "category": "",
-    "html": "Forecast Origins and Information Value in Cross-Market Volatility Forecasting, Jaegi Jeon*, Jeonggyu Huh, Seungwon Jeong*",
-    "members": [
-      "jeonggyu-huh",
-      "seungwon-jeong"
     ]
   },
   {

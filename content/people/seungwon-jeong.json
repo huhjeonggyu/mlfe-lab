@@ -30,10 +30,10 @@
         "items": [
           "MarketGANs: Multivariate Financial Time-Series Data Augmentation Using Generative Adversarial Networks, under revision in Financial Innovation",
           "Neural policy iteration for non-homothetic portfolio optimization: residual accuracy and policy performance, under revision in Communications in Nonlinear Science and Numerical Simulation",
-          "Self-Consistent Adjoint Policy Iteration for Constrained Dynamic Portfolio Choice, submitted",
-          "Computable Welfare Bounds for Constrained Dynamic Portfolio Choice, submitted",
+          "Forecast Origins and Information Value in Cross-Market Volatility Forecasting, under revision in AIMS Mathematics",
           "Differentiating Through Delay: Stochastic Control Without Full History Hessians, submitted",
-          "Forecast Origins and Information Value in Cross-Market Volatility Forecasting, submitted"
+          "Self-Consistent Adjoint Policy Iteration for Constrained Dynamic Portfolio Choice, submitted",
+          "Computable Welfare Bounds for Constrained Dynamic Portfolio Choice, submitted"
         ]
       }
     ]

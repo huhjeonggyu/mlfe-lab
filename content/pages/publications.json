@@ -44,8 +44,8 @@
         "items": [
           "Scalable Pontryagin-Guided Adjoint-to-Control Recovery for Constrained Dynamic Portfolio Choice, Jeonggyu Huh*, Jaegi Jeon*, Hyeng-Keun Koo, Byung-Hwa Lim, under revision in Mathematical Finance  [<a href=\"https://arxiv.org/abs/2608.15667\">Paper</a>] [<a href=\"https://drive.google.com/file/d/1k5YcMDwhNu8MjhH78zEz7PbWYvdqzDng/view?usp=drive_link\">Slides</a>]",
           "Neural policy iteration for non-homothetic portfolio optimization: residual accuracy and policy performance, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*, under revision in Communications in Nonlinear Science and Numerical Simulation",
+          "Differentiating Through Delay: Stochastic Control Without Full History Hessians, Seungwon Jeong*, Jihun Kim, Jeonggyu Huh",
           "Self-Consistent Adjoint Policy Iteration for Constrained Dynamic Portfolio Choice, Jeonggyu Huh*, Yeoneung Kim, Seungwon Jeong [<a href=\"https://arxiv.org/abs/2608.17808\">Link</a>]",
-          "Differentiating Through Delay: Stochastic Control Without Full History Hessians, Seungwon Jeong*, Jihun Kim*, Jeonggyu Huh*",
           "Computable Welfare Bounds for Constrained Dynamic Portfolio Choice, Seungwon Jeong*, Jeonggyu Huh*, Yeoneung Kim*"
         ]
       },
@@ -61,8 +61,8 @@
         "items": [
           "MarketGANs: Multivariate Financial Time-Series Data Augmentation Using Generative Adversarial Networks, Jeonggyu Huh*, Seungwon Jeong, Hyeng-Keun Koo, Byung-Hwa Lim, Hyun-Gyoon Kim*, under revision in Financial Innovation [<a href=\"https://arxiv.org/abs/2601.17773\">Link</a>]",
           "Reinforcement Learning and Heterogeneity in Nonlinear Financial Markets, Hyun Soo Doh*, Yunzhi Hu, Jeonggyu Huh, Byung-Hwa Lim, reject & resubmit, Management Science [<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7313799\">Link</a>]",
-          "Sobolev-Stable Regime-Conditioned DeepONet for Monthly Implied-Volatility Surface Forecasting,  Hojin Ko*, Jeonggyu Huh*, Ho-Jun Lee, Wonwoo Choi",
-          "Forecast Origins and Information Value in Cross-Market Volatility Forecasting, Jaegi Jeon*, Jeonggyu Huh, Seungwon Jeong*<br><br>"
+          "Forecast Origins and Information Value in Cross-Market Volatility Forecasting, Jaegi Jeon*, Jeonggyu Huh, Seungwon Jeong*, under revision in AIMS Mathematics<br><br>",
+          "Sobolev-Stable Regime-Conditioned DeepONet for Monthly Implied-Volatility Surface Forecasting,  Hojin Ko*, Jeonggyu Huh*, Ho-Jun Lee, Wonwoo Choi"
         ]
       },
       {
