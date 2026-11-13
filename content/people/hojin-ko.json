@@ -62,6 +62,21 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "Grants",
+        "html": "Grants"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Research Scholarship, Growth Pathways Support Program for Outstanding STEM Talent, Sungkyunkwan University, 2026 [<a href=\"https://www.skku.edu/skku/campus/skk_comm/notice01.do?articleNo=138707&amp;mode=view\">Program</a>]"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Awards",
         "html": "Awards"
       },
